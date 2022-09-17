@@ -1,3 +1,3 @@
 About sayfası
 
-[[index]]
+[index]

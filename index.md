@@ -2,4 +2,5 @@
 
 ## Başlık 2
 ### Başlık 3
-[[about|About Sayfası]]
+[about|About Sayfası]
+
