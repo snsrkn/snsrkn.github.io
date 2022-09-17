@@ -1,3 +1,0 @@
-About sayfası
-
-{index.md}
