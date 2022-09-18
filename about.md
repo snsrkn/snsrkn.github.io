@@ -1,2 +1,3 @@
-[index](index.md)
-Burada hakkımda hakkında bir şeyler yazacak. 
+[Ana Sayfa](index.md)
+
+İslam Mezhepleri Tarihi Araştırma Görevlisi

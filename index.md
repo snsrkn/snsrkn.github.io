@@ -1,6 +1,10 @@
-# Başlık 1
-[about](about.md)
-[Yayınlarım](Yayınlarım.md)
+# Yusuf Sansarkan
+
+### İslam Mezhepleri Tarihi 
 
 
-Bu bir deneme metnidir
+- [Hakkımda](about.md)
+- [Yayınlarım](publish.md)
+- [Yazılarım](posts.md)
+
+>Obsidian ile hazırlanmıştır.
