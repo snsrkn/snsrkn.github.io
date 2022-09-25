@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 ## Bu Siteyi Nasıl Yaptım
