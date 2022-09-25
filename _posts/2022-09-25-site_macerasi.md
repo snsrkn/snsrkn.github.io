@@ -9,3 +9,5 @@ Eskiden beri meraklıyımdır böyle işlere. Doktora bitince bir blog açmayı 
 Öyle bakarken jekyll diye bir aracın olduğunu gördüm. Komut satırı üzerinden kendi siteni oluşturmanı sağlıyor. İşleri baya kolaylaştırıyor.
 
 Tabi bir de alan adı ve host meselesi var. Onları da github halletti. Şimdilik ücretli alan adı almadım ama ileride düşünebilirim.
+
+_bu bir deneme yazısıdır_
