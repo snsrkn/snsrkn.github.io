@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-25T21:53:05+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Kişisel web sitesi / Personal Website
+</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry><title type="html">Site_macerasi</title><link href="http://localhost:4000/2022/09/25/site_macerasi.html" rel="alternate" type="text/html" title="Site_macerasi" /><published>2022-09-25T00:00:00+03:00</published><updated>2022-09-25T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/25/site_macerasi</id><content type="html" xml:base="http://localhost:4000/2022/09/25/site_macerasi.html"><![CDATA[<h1 id="bu-siteyi-nasıl-yaptım">Bu Siteyi Nasıl Yaptım</h1>
+
+<p>Eskiden beri meraklıyımdır böyle işlere. Doktora bitince bir blog açmayı düşündüm. <!---more---> Google’ın blogger’ı iyi aslında ama ben pek sevmiyorum. Wordpress deneyeyim dedim, özelleştirme seçeneklerinin azlığı bir yana ara yüzünün ağırlığı insanı deli eder.</p>
+
+<p>Öyle bakarken jekyll diye bir aracın olduğunu gördüm. Komut satırı üzerinden kendi siteni oluşturmanı sağlıyor. İşleri baya kolaylaştırıyor.</p>
+
+<p>Tabi bir de alan adı ve host meselesi var. Onları da github halletti. Şimdilik ücretli alan adı almadım ama ileride düşünebilirim.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Bu Siteyi Nasıl Yaptım Eskiden beri meraklıyımdır böyle işlere. Doktora bitince bir blog açmayı düşündüm. Google’ın blogger’ı iyi aslında ama ben pek sevmiyorum. Wordpress deneyeyim dedim, özelleştirme seçeneklerinin azlığı bir yana ara yüzünün ağırlığı insanı deli eder. Öyle bakarken jekyll diye bir aracın olduğunu gördüm. Komut satırı üzerinden kendi siteni oluşturmanı sağlıyor. İşleri baya kolaylaştırıyor. Tabi bir de alan adı ve host meselesi var. Onları da github halletti. Şimdilik ücretli alan adı almadım ama ileride düşünebilirim.]]></summary></entry><entry><title type="html">Arch_linux_eimza</title><link href="http://localhost:4000/2022/09/18/arch_linux_eimza.html" rel="alternate" type="text/html" title="Arch_linux_eimza" /><published>2022-09-18T00:00:00+03:00</published><updated>2022-09-18T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/18/arch_linux_eimza</id><content type="html" xml:base="http://localhost:4000/2022/09/18/arch_linux_eimza.html"><![CDATA[<h2 id="arch-linux-ebys-tübitak-e-imza-kurulumu">Arch Linux EBYS Tübitak e-imza Kurulumu</h2>
+
+<p>Bizde <strong>ACS ACR38T Beyaz</strong> kart okuyucu var.</p>
+
+<p>Öncelikle <code class="language-plaintext highlighter-rouge">pcsclite</code> dosyasını ve aur’dan <code class="language-plaintext highlighter-rouge">akia</code> dosyalarını yükledim.</p>
+
+<p>EBYS üzerinden imza atmak istediğimde site benden <strong>envision</strong> <strong>istemcisini</strong> kurmamı istedi. İnen <strong>deb</strong> uzantılı dosyayı <strong>debtap</strong> ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım.</p>
+
+<!--more-->
+
+<p>Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle:</p>
+
+<p>Envision istemcisi systemd’ye <strong>socket</strong> adında bir modül ekliyor ancak modül çalıştırılmıyor. Bunun iki nedeni var: Birincisi <code class="language-plaintext highlighter-rouge">pyton2</code> eksikliği, ikincisi /usr/CBKSoft dizininin sahibinin <strong>root</strong> olması.</p>
+
+<p>python2’nin kurulumu kolay. <code class="language-plaintext highlighter-rouge">pacman -S python2</code></p>
+
+<p>İkincisine gelince: Dosya izinlerinden çok anlamadığım için acemi usulü Dolphin’i root olarak çalıştırdım, CBKSoft dizininin sahiplerine kendi kullanıcımı ekledim ve bunu tüm alt dizinlere ve dosyalara uygula dedim. Bunu yaptıktan sonra</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemctl enable --now socket.service</code> deyince socket çalışmaya başladı.</p>
+
+<p>Bu arada java 18 falan çalışmayabilir. Bu yüzden aur’dan <strong>Oracle’ın java 8</strong>‘ini kurmam gerekti. Şu andaki adı <code class="language-plaintext highlighter-rouge">jre8</code>. Kurduktan sonra java 8’i şu şekilde varsayılan yaptım:</p>
+
+<p>java sürümlerini listelemek için <code class="language-plaintext highlighter-rouge">archlinux-java status</code> dedim. Ardından</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo archlinux-java set java-8-jre/jre</code> komutuyla işi tamamladım.</p>
+
+<p>Yetti mi? Yetmeyebilir… Bunun için
+<code class="language-plaintext highlighter-rouge">/usr/CBKSoft/enVision.Client.Service/SignerCMSTubitak/</code>
+dizinin içindeki iki dosyanın özelliklerine baktım. Birlikte açmak için varsayılan uygulamanın java 8 olduğundan emin olmalıydım.</p>
+
+<p>Bütün bunları yapınca çalışır gibi oldu ama bir sorun daha çıkardı. İmzamı girince
+<code class="language-plaintext highlighter-rouge">cannot encode tr.gov.tubitak.uekae.esya.asn.cms.SignedData@1</code>
+hatası çıktı.</p>
+
+<p><a href="https://kamusm.bilgem.tubitak.gov.tr/depo/sertifikalar/depo.jsp">Tübitak</a>‘ın sitesinden en alttaki Sertifikadeposu.svt’yi indirip kullanıcı dizinimde gizli bulanan .sertifikadeposu dizininin içine attım. Burada önceden aynı isimde bir dosya vardı ama sanırım bozuktu. Onunla değiştir deyince sorun düzeldi.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Arch Linux EBYS Tübitak e-imza Kurulumu Bizde ACS ACR38T Beyaz kart okuyucu var. Öncelikle pcsclite dosyasını ve aur’dan akia dosyalarını yükledim. EBYS üzerinden imza atmak istediğimde site benden envision istemcisini kurmamı istedi. İnen deb uzantılı dosyayı debtap ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım.]]></summary></entry></feed>

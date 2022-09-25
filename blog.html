@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+---
+
+<h2>Son Yazılarım</h2>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+    {{ post.excerpt }}
+      <p><a href="{{ post.url }}">Devamını oku</a></p>
+    </li>
+  {% endfor %}
+</ul>
