@@ -8,10 +8,10 @@ layout: default
       margin: 5px;
     }
     #footnote-1 {
-    font-size: 10px;
+    font-size: 12px;
     }
-     #footnote-2 {
-    font-size: 10px;
+    p {
+    text-align: justify;
     }
   </style>
 
@@ -30,5 +30,5 @@ Ben yaklaşık üç yıldır sadece Libreoffice kullanıyorum. Tezimi onunla yaz
 Bu yazıyı neden yazıyorum? Türkiye'de neredeyse Libreoffice kullanan yokken bu yazıyı okuyan bir kişi neden alışkanlığından vazgeçip yeni bir şeyler öğrenmekle uğraşsın ki? Bilemiyorum belki **kaçak yazılım** kullanmak birilerinin canına tak etmiştir de bu yazı ona bir fikir verir dedim. Ya da ne bileyim kurumlarımız Microsoft'un ücretli yazılımına dünya kadar para vermenin aslında gerekli olmadığını bilmiyordur. Nitekim Eyüp Belediyesi özgür yazılıma geçerek 2 milyon dolar tasarruf edebiliyor.<a href="#footnote-2"><sup>2</sup></a> Düşünsenize bu sadece bir belediye...
 
 <br>
-<p id="footnote-1">[1] Özgür yazılım ücretsizdir ama sadece ücretsiz demek değildir. Detaylı bilgi için <a target="_blank" href="https://tr.wikipedia.org/wiki/%C3%96zg%C3%BCr_yaz%C4%B1l%C4%B1m">Vikipedi'ye bakabilirsiniz</a>.<br>
-id="footnote-2">[2] <a target="_blank" href="https://www.aa.com.tr/tr/sirkethaberleri/belediye/eyupsultan-yerli-yazilimla-2-milyon-dolar-tasarruf-etti/645993">Eyüb Belediyesi Yerli Yazılımla 2 Milyon Dolar Tasarruf Etti Haberi.</a></p>
+<p id="footnote-1" id="footnote-2">[1] Özgür yazılım ücretsizdir ama sadece ücretsiz demek değildir. Detaylı bilgi için <a target="_blank" href="https://tr.wikipedia.org/wiki/%C3%96zg%C3%BCr_yaz%C4%B1l%C4%B1m">Vikipedi'ye bakabilirsiniz</a>.</p><br>
+[2] <a target="_blank" href="https://www.aa.com.tr/tr/sirkethaberleri/belediye/eyupsultan-yerli-yazilimla-2-milyon-dolar-tasarruf-etti/645993">Eyüb Belediyesi Yerli Yazılımla 2 Milyon Dolar Tasarruf Etti Haberi.</a>
