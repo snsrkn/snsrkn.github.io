@@ -7,8 +7,11 @@ layout: default
       float: right;
       margin: 5px;
     }
-    #footnote-1 #footnote-2 {
-    font-size: 11px;
+    #footnote-1 {
+    font-size: 12px;
+    }
+    #footnote-2 {
+    font-size: 12px;
     }
   </style>
 
