@@ -7,14 +7,14 @@ layout: default
       float: right;
       margin: 5px;
     }
-    #footnote-1 #footnote-2{
-    font-size: 12px;
+    #footnote-1 #footnote-2 {
+    font-size: 11px;
     }
   </style>
 
 ## Libreoffice Neyimize Yetmiyor?
 
-<a target="_blank" href="https://tr.libreoffice.org/">Libreoffice</a> özgür bir ofis uygulamasıdır. <!--more--> Bilgisayarlarınızda kullandığınız Microsoft Office'in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız **word**, hesaplar için kullandığınız **excel** ve slaytlar için kullandığınız **powerpoint**ten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların özgür<a href="#footnote-1"><sup>1</sup></a> olanları var.
+Libreoffice özgür bir ofis uygulamasıdır. <!--more--> Bilgisayarlarınızda kullandığınız Microsoft Office'in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız **word**, hesaplar için kullandığınız **excel** ve slaytlar için kullandığınız **powerpoint**ten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların özgür<a href="#footnote-1"><sup>1</sup></a> olanları var.
 
 Libreoffice'in kullanımı zor değil. MS Office'e benziyor ama arayüzünde birtakım farklılıklar da mevcut. Eğer excelde ileri seviyede işler yapmıyorsanız çok kısa sürede alışabilirsiniz. Gerçi onları da yapabilirsiniz ancak alıştığınız kısa yollar ve bazı farklılıklar sizi zorlayabilir. Öte yandan MS Office'i bırakıp Libreoffice'e geçtiğiniz için bir sorun yaşayacağınızı düşünmüyorum çünkü 7. sürümden sonra MS Office ile uyumluluğu çok ileriye taşıdılar. 
 
