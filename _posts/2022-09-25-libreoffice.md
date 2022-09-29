@@ -2,8 +2,19 @@
 layout: default
 ---
 
-## Libreoffice
+## Libreoffice Neyimize Yetmiyor?
 
-Libreoffice <!--more--> özgür bir ofis uygulamasıdır.
+<a target="_blank" href="https://tr.libreoffice.org/">Libreoffice</a> özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office'in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız **word**, hesaplar için kullandığınız **excel** ve slaytlar için kullandığınız **powerpoint**ten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların özgür^[Özgür yazılım ücretsizdir ama sadece ücretsiz demek değildir. Detaylı bilgi için <a target="_blank" href="https://tr.wikipedia.org/wiki/%C3%96zg%C3%BCr_yaz%C4%B1l%C4%B1m">Vikipedi'ye bakabilirsiniz</a>.] olanları var. 
 
-..._devamı yazılacak_
+Libreoffice'in kullanımı zor değil. MS Office'e benziyor ama arayüzünde birtakım farklılıklar da mevcut. Eğer excelde ileri seviyede işler yapmıyorsanız çok kısa sürede alışabilirsiniz. Gerçi onları da yapabilirsiniz ancak alıştığınız kısa yollar ve bazı farklılıklar sizi zorlayabilir. Öte yandan MS Office'i bırakıp Libreoffice'e geçtiğiniz için bir sorun yaşayacağınızı düşünmüyorum çünkü 7. sürümden sonra MS Office ile uyumluluğu çok ileriye taşıdılar. 
+
+Ben yaklaşık üç yıldır sadece Libreoffice kullanıyorum. Tezimi onunla yazdım. Bu süre boyunca defalarca danışmanıma ve tez komitesi üyelerine dosya yolladım ve onlar MS Office kullanıyordu. Buna rağmen tek bir sorunla karşılaşmadım. <a target="_blank" href="https://dergipark.org.tr/en/pub/imad">İslam Medeniyeti Araştırmaları Dergisi'</a>nin mizanpajını da ben yapıyorum. Hazırladığımı dört sayının son üçünü tamamen Libreoffice ile yaptım. 
+
+Libreoffice'i kullanmamın asıl sebebi özgür olması ancak özellikle kenar çubuğunu ![](assets/images/libreoffice_sidebar.png) çok seviyorum. Özellikle düzenlemelerde işi çok kolaylaştırıyor. Kenar çubuğunun kolaylıkla açılıp kapanması, "özelleştirme", "navigatör" ve "stiller" butonlarını içermesi birçok işi hızlıca yapmayı sağlıyor. Son sürümlerinden itibaren MS Office'e benzer şekilde üstte sekmeli görünüme geçtiler ama ben yine de kenar çubuğundan vazgeçemiyorum. Ekranlar da artık çok geniş olduğundan üstte iki satır olacağına yanda genişçe çubuklar olsun daha iyi. 
+
+Peki Libreoffice mükemmel mi? Kesinlikle hayır. Hatta kullanımınıza bağlı olarak MS Office göre eksiklik bile bulabilirsiniz. Mesela MS Office'teki internete anlık otomatik kaydetmek Libreoffice'te yok. Otomatik kaydetme sıklığını 1 dakika şeklinde ayarlayıp çalışmanızın kaybolmasını engelleyebilirsiniz ama internete yedekleme işi MS Office gibi kullanışlı değil. 
+
+Bu yazıyı neden yazıyorum? Türkiye'de neredeyse Libreoffice kullanan yokken bu yazıyı okuyan bir kişi neden alışkanlığından vazgeçip yeni bir şeyler öğrenmekle uğraşsın ki? Bilemiyorum belki **kaçak yazılım** kullanmak birilerinin canına tak etmiştir de bu yazı ona bir fikir verir dedim. Ya da ne bileyim kurumlarımız Microsoft'un ücretli yazılımına dünya kadar para vermenin aslında gerekli olmadığını bilmiyordur. Nitekim Eyüp Belediyesi özgür yazılıma geçerek 2 milyon dolar tasarruf edebiliyor.^[<a target="_blank" href="https://www.aa.com.tr/tr/sirkethaberleri/belediye/eyupsultan-yerli-yazilimla-2-milyon-dolar-tasarruf-etti/645993">Eyüb Belediyesi Yerli Yazılımla 2 Milyon Dolar Tasarruf Etti Haberi] Düşünsenize bu sadece bir belediye...
+
+
+
