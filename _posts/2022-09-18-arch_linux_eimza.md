@@ -36,4 +36,4 @@ hatası çıktı.
 
 <a target="_blank" href="https://kamusm.bilgem.tubitak.gov.tr/depo/sertifikalar/depo.jsp">Tübitak</a>‘ın sitesinden en alttaki Sertifikadeposu.svt’yi indirip kullanıcı dizinimde gizli bulanan .sertifikadeposu dizininin içine attım. Burada önceden aynı isimde bir dosya vardı ama sanırım bozuktu. Onunla değiştir deyince sorun düzeldi.
 
-<p style=text-size: 12px;>Aklınıza takılın bir şey olursa alttaki e-posta adresimden bana ulaşabilirsiniz.</p>
+<p style="font-size: 12px;">Aklınıza takılın bir şey olursa alttaki e-posta adresimden bana ulaşabilirsiniz.</p>
