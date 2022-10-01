@@ -6,11 +6,11 @@ title: Arch Linux EBYS Tübitak e-imza Kurulumu
 
 Bizde **ACS ACR38T Beyaz** kart okuyucu var.
 
-Öncelikle `pcsclite` dosyasını ve <!--more--> aur’dan `akia` dosyalarını yükledim.
+Öncelikle `pcsclite` dosyasını ve aur’dan `akia` dosyalarını yükledim.
 
 EBYS üzerinden imza atmak istediğimde site benden **envision** **istemcisini** kurmamı istedi. İnen **deb** uzantılı dosyayı **debtap** ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım.
 
-Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle:
+Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle: <!--more-->
 
 Envision istemcisi systemd’ye **socket** adında bir modül ekliyor ancak modül çalıştırılmıyor. Bunun iki nedeni var: Birincisi `pyton2` eksikliği, ikincisi /usr/CBKSoft dizininin sahibinin **root** olması.
 
