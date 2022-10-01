@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: Post
+title: Arch Linux EBYS Tübitak e-imza Kurulumu
 ---
 
-## Arch Linux EBYS Tübitak e-imza Kurulumu
 
 Bizde **ACS ACR38T Beyaz** kart okuyucu var.
 

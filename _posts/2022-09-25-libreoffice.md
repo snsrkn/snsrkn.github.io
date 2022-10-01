@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+title: Libreoffice Neyimize Yetmiyor?
 ---
 
 <style>
@@ -15,7 +16,6 @@ layout: default
     }
   </style>
 
-## Libreoffice Neyimize Yetmiyor?
 
 Libreoffice özgür bir ofis uygulamasıdır. <!--more--> Bilgisayarlarınızda kullandığınız Microsoft Office'in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız **word**, hesaplar için kullandığınız **excel** ve slaytlar için kullandığınız **powerpoint**ten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların özgür<a href="#footnote-1"><sup>1</sup></a> olanları var.
 

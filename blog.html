@@ -2,14 +2,25 @@
 layout: default
 title: Blog
 ---
-
-<h2>Son Yazılarım</h2>
-
-<ul>
-  {% for post in site.posts %}
+<header class="post-header">
+  <h2>Son Yazılarım</h2>
+  <p class="post-meta">
+    <ol>
+    {% for post in site.posts %}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <li>
-    {{ post.excerpt }}
-      <p><a href="{{ post.url }}">Devamını oku</a></p>
+    <details>
+      <summary>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+          <time class="post-meta" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ post.date | date: date_format }}
+          </time>
+        </summary>
+      {{ post.excerpt }}
+      <a href="{{ post.url }}">Devamını oku</a>
+    </details>
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %} 
+  </ol>
+  </p>
+</header>
