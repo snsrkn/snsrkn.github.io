@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 title: Arch Linux EBYS Tübitak e-imza Kurulumu
 ---
 
