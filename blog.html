@@ -11,12 +11,12 @@ title: Blog
     <li>
     <details>
       <summary>
-        {{ post.title }}
+       <span style="font-weight: 600;">{{ post.title }}</span>
           <time class="post-meta" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ post.date | date: date_format }}
           </time>
         </summary>
-      <a href="{{ post.url }}">{{ post.excerpt }}</a>
+      <a href="{{ post.url }}">{{ post.excerpt }} devamını oku...</a>
     </details>
     </li>
     {% endfor %} 
