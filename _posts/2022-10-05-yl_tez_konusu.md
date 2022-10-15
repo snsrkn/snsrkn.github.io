@@ -4,16 +4,21 @@ title: Yüksek Lisans Tez Konusu Seçerken Dikkat!
 ---
 
 <style>
-    img {
+    #img2 {
       float: right;
       margin: 5px;
       border-radius: 3px;  
       width: 125px;
       height: auto;
     }
+    #img1 {
+    border-radius: 3px;
+    }
   </style>
 
 Yüksek lisans akademik kariyerin ilk basamağı olduğundan yüksek lisans tezinin hazırlanması da büyük önem arz eder. Öğrenci bu konulara fazlasıyla yabancı olduğundan konuyu nasıl belirleyeceeği konusunda fikir sahibi olmadan işe girişir. Bunun sonucu olarak da çoğu kişi konuyu yanlış belirler. <!--more-->
+
+<img id="img1" src="/assets/images/kalemler-mezuniyet_sapkasi.jpg" alt="kalemin ucuna takılmış mezuniyet şapkası">
 
 Maalesef Türkiye'de bir yüksek lisans öğrencisinin veya onun tezinin alana katkı sağlaması beklenmez. Bu nedenle yüksek lisans yapmanın tek amacı öğrenciyi akademik hayata veya akademik yazıma hazırlamaktır. Durum bu olunca tezlerin içeriğinden çok şekillerine önem verilir. 
 
@@ -37,7 +42,7 @@ Bu sebeplerden, yüksek lisans tez aşamasına geçinçe şunları aklınıın b
 	<a target="_blank" href="http://ktp2.isam.org.tr/?blm=arailhtezb&navdil=tr">İlahiyat Fakültesi Tezler Kataloğu</a>'nndan ve <a target="_blank" href="https://tez.yok.gov.tr/UlusalTezMerkezi/">Ulusal Tez Merkezi</a>'nden alanınızla ilgili tezlere, vakit ayırarak bakın. İlginizi çeken tezleri indirin, bölümlendirmelerini inceleyin. 
 	
 6. **Kılavuz kitaplardan yardım alın**
-	<img src="/assets/images/saban_oz-arastirma.jpg" alt="Şaban Öz'ün Araştırma Yöntem ve Teknikleri başlıklı kitabının kapak resmi"> İlahiyat alanı için Şaban Öz'ün _Araştırma Yöntem ve Teknikleri_ kitabını şiddetle tavsiye ederim. Küçük hacimli bir kitap, oradaki yönergeleri uygulamaya çalışırsanız işiniz kolaylaşır. Yol gösterici olması açısından konuyla ilgili yazılmış kitaplar var. Mesela Muzffer Üstdal'ın _Başarılı Tezler Nasıl Hazırlanır_ başlıklı kitabı. 
+	<img id="img2" src="/assets/images/saban_oz-arastirma.jpg" alt="Şaban Öz'ün Araştırma Yöntem ve Teknikleri başlıklı kitabının kapak resmi"> İlahiyat alanı için Şaban Öz'ün _Araştırma Yöntem ve Teknikleri_ kitabını şiddetle tavsiye ederim. Küçük hacimli bir kitap, oradaki yönergeleri uygulamaya çalışırsanız işiniz kolaylaşır. Yol gösterici olması açısından konuyla ilgili yazılmış kitaplar var. Mesela Muzffer Üstdal'ın _Başarılı Tezler Nasıl Hazırlanır_ başlıklı kitabı. 
 	Son olarak Oku Okut Yayınları'ndan çıkan, _İlahiyat Araştırmalarında Veri Taraması: Veri Tabanları – Kütüphaneler - Atıf Dizinleri_ başlıklı kitaba bakmanızı tavsiye ederim. Açık erişim olduğundan <a target="_blank_" href="https://yayin.okuokut.org/okuokut/catalog/book/isbn-9786057441690"> kendi web sitesinden</a> indirebilirsiniz. 
 
 Başarılar dilerim. 
