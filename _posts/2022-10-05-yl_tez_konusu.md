@@ -16,9 +16,9 @@ title: Yüksek Lisans Tez Konusu Seçerken Dikkat!
     }
   </style>
 
-Yüksek lisans akademik kariyerin ilk basamağı olduğundan yüksek lisans tezinin hazırlanması da büyük önem arz eder. Öğrenci bu konulara fazlasıyla yabancı olduğundan konuyu nasıl belirleyeceeği konusunda fikir sahibi olmadan işe girişir. Bunun sonucu olarak da çoğu kişi konuyu yanlış belirler. <!--more-->
+**Yüksek lisans akademik kariyerin ilk basamağı olduğundan yüksek lisans tezinin hazırlanması da büyük önem arz eder. Öğrenci bu konulara fazlasıyla yabancı olduğundan konuyu nasıl belirleyeceeği konusunda fikir sahibi olmadan işe girişir. Bunun sonucu olarak da çoğu kişi konuyu yanlış belirler. **<!--more-->
 
-<img id="img1" src="/assets/images/kalemler-mezuniyet_sapkasi.jpg" alt="kalemin ucuna takılmış mezuniyet şapkası">
+<img id="img1" src="/assets/images/doors.jpg" alt="biri kırmızı diğerleri gri yedi kapı">
 
 Maalesef Türkiye'de bir yüksek lisans öğrencisinin veya onun tezinin alana katkı sağlaması beklenmez. Bu nedenle yüksek lisans yapmanın tek amacı öğrenciyi akademik hayata veya akademik yazıma hazırlamaktır. Durum bu olunca tezlerin içeriğinden çok şekillerine önem verilir. 
 
