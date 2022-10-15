@@ -8,6 +8,8 @@ title: Yüksek Lisans Tez Konusu Seçerken Dikkat!
       float: right;
       margin: 5px;
       border-radius: 3px;  
+      width: 125px;
+      height: auto;
     }
   </style>
 
