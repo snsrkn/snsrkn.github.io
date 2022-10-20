@@ -5,7 +5,7 @@ title: Blog
 <header class="post-header">
   <h2>Son Yazılarım</h2>
   <p class="post-meta">
-    <ol>
+    <ul>
     {% for post in site.posts %}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <li>
@@ -20,6 +20,6 @@ title: Blog
     </details>
     </li>
     {% endfor %} 
-  </ol>
+  </ul>
   </p>
 </header>
