@@ -10,13 +10,16 @@ title: Zotero Kullanmak Önemli
         float: left;
     }
     #cntr {
-        margin: auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 3px;
     }
 </style>
 
-<a target="_blank" href="https://www.zotero.org/"><img id="logo" src="https://www.zotero.org/static/images/home/privacy.svg" alt="zotero logosu"></a>Kitap, makale gibi akademik yayınlarda dipnot verirken metinlerdeki dipnotları takip etmek zor olduğundan bu işi yazarın yerine yapacak uygulamalar kullanılmaktadır. Bunlardan muhtemelen en popüler olanı <a target="_blank" href="https://www.zotero.org/">Zotero</a>'dur. Açık kaynak olan ve kâr amacı gütmeyen uygulama, hem kullanışlı hem de birçok özelliğe sahiptir. 
-<!--more-->
-Normalde dipnot, ilk geçtiği yerde uzun, sonraki yerlerde kısa verilir. Yani bir kaynağı ilk defa kullandıysanız onu yazarın tam adı soyadı, yayının tam adı, yayın yeri, yayın yılı, varsa editörü, muhakkiki vs. tüm bilgileri girerek verirsiniz. İkinci geçtiği yerde sadece yazarın soyadı, yayının kısa adı ve cilt/sayfa numarası şeklinde yazmanız yeterlidir. 
+Kitap, makale gibi akademik yayınlarda dipnot verirken metinlerdeki dipnotları takip etmek zor olduğundan bu işi yazarın yerine yapacak uygulamalar kullanılmaktadır.<!--more--> Bunlardan muhtemelen en popüler olanı <a target="_blank" href="https://www.zotero.org/">Zotero</a>'dur. Açık kaynak olan ve kâr amacı gütmeyen uygulama, hem kullanışlı hem de birçok özelliğe sahiptir. 
+
+<a target="_blank" href="https://www.zotero.org/"><img id="logo" src="https://www.zotero.org/static/images/home/privacy.svg" alt="zotero logosu"></a>Normalde dipnot, ilk geçtiği yerde uzun, sonraki yerlerde kısa verilir. Yani bir kaynağı ilk defa kullandıysanız onu yazarın tam adı soyadı, yayının tam adı, yayın yeri, yayın yılı, varsa editörü, muhakkiki vs. tüm bilgileri girerek verirsiniz. İkinci geçtiği yerde sadece yazarın soyadı, yayının kısa adı ve cilt/sayfa numarası şeklinde yazmanız yeterlidir. 
 
 Bir yayından beklenen, dipnotların her geçtiği yerde aynı olması ve doğru yazılmasıdır. İşte siz yüzlerce hatta binlerce dipnot verdiğiniz yayınlarda bu birliği sağlayamayabilirsiniz. Tez yazdığınızı düşündüğünüzde ilk defa bir kaynağı kullandığınız zamanla ikinci kullanımınız arasında bir-iki yıl geçmiş olabilir. Onu arayıp bulmak, ona uydurmak vakit kaybından başka bir şey değildir. 
 
