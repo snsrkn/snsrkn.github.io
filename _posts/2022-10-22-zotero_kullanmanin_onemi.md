@@ -43,7 +43,7 @@ Dışarı aktarılan ve md uzantılı not sayfasında aldığınız notlar, sayf
 
 <img class="imgler" src="/assets/images/zotero_export_note.png" alt="zotero notu dışarı aktarma">
 
-Yani bir makaleyi yarım saat içinde okuyup, notlarını çıkarıp bu notları Obsidian'a aktararak fişlemenizi bitirebilirsiniz.
+Yani bir makaleyi yarım saat içinde okuyup, notlarını çıkarıp bu notları <a target="_blank" href="https://obsidian.md/">Obsidian</a>'a aktararak fişlemenizi bitirebilirsiniz.
 
 <img class="imgler" src="/assets/images/zotero_note.png" alt="zoteroda oluşturulmuş not">
 
