@@ -5,7 +5,7 @@ title: Hakkımda
 
 # Hakkımda
 
-<img src="/assets/images/banner2.png" alt="inkscape ile çizilen Dr. Yusuf Sansarkan bannerı">
+<img style="border-radius: 3px;" src="/assets/images/banner3.png" alt="inkscape ile çizilen Dr. Yusuf Sansarkan bannerı">
 
 
 - Kütahya Dumlupınar Üniversitesi İslami İlimler Fakültesi'nde Araştırma Görevlisi.
