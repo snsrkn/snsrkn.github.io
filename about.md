@@ -7,20 +7,15 @@ title: Hakkımda
 
 <img src="/assets/images/banner2.png" alt="inkscape ile çizilen Dr. Yusuf Sansarkan bannerı">
 
-**Dr. Yusuf Sansarkan**
 
 - Kütahya Dumlupınar Üniversitesi İslami İlimler Fakültesi'nde Araştırma Görevlisi.
 
 - İslam Medeniyeti Araştırmaları Dergisi'nde mizanpaj editörü.
 
-**Yüksek Lisans Tezi:** 
-İslam Düşünce Geleneğinde Tahkim Meselesi ve Mezhebî Ekoller Üzerindeki Etkisi
-Eylül 2017
+**Yüksek Lisans Tezi:**<br> 
+İslam Düşünce Geleneğinde Tahkim Meselesi ve Mezhebî Ekoller Üzerindeki Etkisi<br>
+<p style="font-size: 12px;">Eylül 2017</p>
 
-**Doktora: Tezi** 
-İsmâilîliğin Yeni Eflâtuncu Dönüşümü: Ebû Ya'kub es-Sicistânî Örneği
-Eylül 2022
-
-
-
-
+**Doktora: Tezi**<br>
+İsmâilîliğin Yeni Eflâtuncu Dönüşümü: Ebû Ya'kub es-Sicistânî Örneği<br>
+<p style="font-size: 12px;">Eylül 2022</p>
