@@ -1,21 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-25T21:53:05+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Kişisel web sitesi / Personal Website
-</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry><title type="html">Site_macerasi</title><link href="http://localhost:4000/2022/09/25/site_macerasi.html" rel="alternate" type="text/html" title="Site_macerasi" /><published>2022-09-25T00:00:00+03:00</published><updated>2022-09-25T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/25/site_macerasi</id><content type="html" xml:base="http://localhost:4000/2022/09/25/site_macerasi.html"><![CDATA[<h1 id="bu-siteyi-nasıl-yaptım">Bu Siteyi Nasıl Yaptım</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-11T14:05:36+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Kişisel web sitesi / Personal Website
+</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry><title type="html">Zotero Kullanmak Önemli</title><link href="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html" rel="alternate" type="text/html" title="Zotero Kullanmak Önemli" /><published>2022-10-22T00:00:00+03:00</published><updated>2022-10-22T00:00:00+03:00</updated><id>http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi</id><content type="html" xml:base="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html"><![CDATA[<style>
+    #logo {
+        width: 250px;
+        height: auto;
+        float: left;
+    }
+    .imgler {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 3px;
+    }
+</style>
 
-<p>Eskiden beri meraklıyımdır böyle işlere. Doktora bitince bir blog açmayı düşündüm. <!---more---> Google’ın blogger’ı iyi aslında ama ben pek sevmiyorum. Wordpress deneyeyim dedim, özelleştirme seçeneklerinin azlığı bir yana ara yüzünün ağırlığı insanı deli eder.</p>
+<p>Kitap, makale gibi akademik yayınlarda dipnot verirken metinlerdeki dipnotları takip etmek zor olduğundan bu işi yazarın yerine yapacak uygulamalar kullanılmaktadır.<!--more--> Bunlardan muhtemelen en popüler olanı <a target="_blank" href="https://www.zotero.org/">Zotero</a>‘dur. Açık kaynak olan ve kâr amacı gütmeyen uygulama, hem kullanışlı hem de birçok özelliğe sahiptir.</p>
 
-<p>Öyle bakarken jekyll diye bir aracın olduğunu gördüm. Komut satırı üzerinden kendi siteni oluşturmanı sağlıyor. İşleri baya kolaylaştırıyor.</p>
+<p><a target="_blank" href="https://www.zotero.org/"><img id="logo" src="https://www.zotero.org/static/images/home/privacy.svg" alt="zotero logosu" /></a>Normalde dipnot, ilk geçtiği yerde uzun, sonraki yerlerde kısa verilir. Yani bir kaynağı ilk defa kullandıysanız onu yazarın tam adı soyadı, yayının tam adı, yayın yeri, yayın yılı, varsa editörü, muhakkiki vs. tüm bilgileri girerek verirsiniz. İkinci geçtiği yerde sadece yazarın soyadı, yayının kısa adı ve cilt/sayfa numarası şeklinde yazmanız yeterlidir.</p>
 
-<p>Tabi bir de alan adı ve host meselesi var. Onları da github halletti. Şimdilik ücretli alan adı almadım ama ileride düşünebilirim.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Bu Siteyi Nasıl Yaptım Eskiden beri meraklıyımdır böyle işlere. Doktora bitince bir blog açmayı düşündüm. Google’ın blogger’ı iyi aslında ama ben pek sevmiyorum. Wordpress deneyeyim dedim, özelleştirme seçeneklerinin azlığı bir yana ara yüzünün ağırlığı insanı deli eder. Öyle bakarken jekyll diye bir aracın olduğunu gördüm. Komut satırı üzerinden kendi siteni oluşturmanı sağlıyor. İşleri baya kolaylaştırıyor. Tabi bir de alan adı ve host meselesi var. Onları da github halletti. Şimdilik ücretli alan adı almadım ama ileride düşünebilirim.]]></summary></entry><entry><title type="html">Arch_linux_eimza</title><link href="http://localhost:4000/2022/09/18/arch_linux_eimza.html" rel="alternate" type="text/html" title="Arch_linux_eimza" /><published>2022-09-18T00:00:00+03:00</published><updated>2022-09-18T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/18/arch_linux_eimza</id><content type="html" xml:base="http://localhost:4000/2022/09/18/arch_linux_eimza.html"><![CDATA[<h2 id="arch-linux-ebys-tübitak-e-imza-kurulumu">Arch Linux EBYS Tübitak e-imza Kurulumu</h2>
+<p>Bir yayından beklenen, dipnotların her geçtiği yerde aynı olması ve doğru yazılmasıdır. İşte siz yüzlerce hatta binlerce dipnot verdiğiniz yayınlarda bu birliği sağlayamayabilirsiniz. Tez yazdığınızı düşündüğünüzde ilk defa bir kaynağı kullandığınız zamanla ikinci kullanımınız arasında bir-iki yıl geçmiş olabilir. Onu arayıp bulmak, ona uydurmak vakit kaybından başka bir şey değildir.</p>
 
-<p>Bizde <strong>ACS ACR38T Beyaz</strong> kart okuyucu var.</p>
+<p>Zotero veya benzeri bir uygulama kullandığınızda, uygulama otomatik olarak bu takibi sizin yerinize yapar ve dipnotların her yerde aynı olmasını sağlar. Yapmanız gereken uygulamaya kaynağın bilgilerini girmek ve dipnotlarınızı uygulamanın kısayolunu kullanarak vermektir. Bu arada uygulamaya bilgileri yanlış girerseniz tüm metinde yanlış dipnot vermiş olacaksınız ama merak etmeyin, yanlışı fark ettiğinizde metin üzerinden tek tek düzeltmeniz gerekmiyor. Zotero’dan düzeltip yenilediğinizde tüm hatalar düzeltilecektir.</p>
+
+<p>Zotero sadece dipnot vermez, verdiğiniz dipnotların hepsinden otomatik kaynakça da oluşturur. Bilen bilir, kaynakça oluşturmak ayrı bir çiledir. Tüm dipnotlar tek tek incelenecek, ardından sayfalar dolusu kaynakça hazırlanacak. Bunu bir saniye içinde yapmak varken neden uğraşasınız ki?</p>
+
+<p><img class="imgler" src="/assets/images/zotfile_settings.png" alt="zotfile seçenekler penceresi" /></p>
+
+<p>Zotero sadece kaynak gösterme uygulaması mı? Hayır. Künye bilgilerini girdiğiniz yayınların pdf hallerini de Zotero’da saklayabilirsiniz. Böylece dijital kitaplığınız düzenli olacak, istediğiniz kitabı ve makaleyi anında bulabileceksiniz. Daha iyi bir kullanım için <a target="_blank" href="http://zotfile.com/">Zotfile</a> adı verilen eklentiyi kullanmanızı tavsiye ediyorum. Bu arada Zotero’nun araması çok iyi değil. Kitap veya yazar isminde şapka, kesme işareti falan varsa bunlar olmadan aradığınızda bulamıyor. Aradığınız ismi oraya kaydettiğiniz biçimde yazmanız gerekiyor. Ben bunun üstesinden gelmek için etiket kullanıyorum. Etiketleri Türkçe karakter girmeden yazıyorum ki araması kolay olsun. Diğer yandan kitabın veya yazarın, özel karakter içermeyen kısımlarını aratırsanız da kitabı bulabilirsiniz. Mesela Ca‘feriyye diye eklediğiniz maddeyi ararken arama kutusuna “feriyye” yazarsanız, maddeyi bulabilirsiniz.</p>
+
+<p>Zotero’ya kaydettiğiniz pdflerinizi yedeklemek isterseniz uygulama belli bir ücret karşılığında bunu yapıyor. Bu işi ücretsiz yapmak isterseniz, Zotfile eklentisiyle pdflerinizin kaydolacağı klasörü belirleyip o klasörü buluta yedekleyebilirsiniz</p>
+
+<p><img class="imgler" src="/assets/images/zotero_annotations.png" alt="zotero pdf okuma ve renkli işaretleme" /></p>
+
+<p>Zotero’nun çok kullanılmayan ama harika olan bir özelliği de pdf işaretleme özelliği. Metni farklı renklerde işaretleyebiliyor, üzerine notlar alabiliyorsunuz. Metnin üzerinde işaretlediğiniz kısımlar yanda liste halinde görünüyor. Bundan da güzeli, bu işaretleme ve notları toplu halde bir not sayfası şeklinde dışa aktarabiliyorsunuz.</p>
+
+<p><img class="imgler" src="/assets/images/zotero_add_note.png" alt="zotero not ekleme" /></p>
+
+<p>Dışarı aktarılan ve md uzantılı not sayfasında aldığınız notlar, sayfa numaraları altta yazan bir şekilde kaynak olarak kullanılmaya hazır olarak geliyor.</p>
+
+<p><img class="imgler" src="/assets/images/zotero_export_note.png" alt="zotero notu dışarı aktarma" /></p>
+
+<p>Yani bir makaleyi yarım saat içinde okuyup, notlarını çıkarıp bu notları <a target="_blank" href="https://obsidian.md/">Obsidian</a>‘a aktararak fişlemenizi bitirebilirsiniz.</p>
+
+<p><img class="imgler" src="/assets/images/zotero_note.png" alt="zoteroda oluşturulmuş not" /></p>
+
+<p>Zotero’da aynı anda birçok pdf dosyasını açabilirsiniz. Bu dosyalar sekmeler halinde açılıyor. İşin güzel tarafı Zotero’yu kapatıp açtığınızda sekmeler hiç kapanmamış gibi orada duruyor.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Kitap, makale gibi akademik yayınlarda dipnot verirken metinlerdeki dipnotları takip etmek zor olduğundan bu işi yazarın yerine yapacak uygulamalar kullanılmaktadır.]]></summary></entry><entry><title type="html">Yüksek Lisans Tez Konusu Seçerken Dikkat!</title><link href="http://localhost:4000/2022/10/05/yl_tez_konusu.html" rel="alternate" type="text/html" title="Yüksek Lisans Tez Konusu Seçerken Dikkat!" /><published>2022-10-05T00:00:00+03:00</published><updated>2022-10-05T00:00:00+03:00</updated><id>http://localhost:4000/2022/10/05/yl_tez_konusu</id><content type="html" xml:base="http://localhost:4000/2022/10/05/yl_tez_konusu.html"><![CDATA[<style>
+    #img2 {
+      float: right;
+      margin: 5px;
+      border-radius: 3px;  
+      width: 145px;
+      height: auto;
+    }
+    #img1 {
+    border-radius: 3px;
+    }
+  </style>
+
+<p><strong>Yüksek lisans akademik kariyerin ilk basamağı olduğundan yüksek lisans tezinin hazırlanması da büyük önem arz eder. Öğrenci bu konulara fazlasıyla yabancı olduğundan konuyu nasıl belirleyeceeği konusunda fikir sahibi olmadan işe girişir. Bunun sonucu olarak da çoğu kişi konuyu yanlış belirler.</strong><!--more--></p>
+
+<p><img id="img1" src="/assets/images/doors.jpg" alt="biri kırmızı diğerleri gri yedi kapı" /></p>
+
+<p>Maalesef Türkiye’de bir yüksek lisans öğrencisinin veya onun tezinin alana katkı sağlaması beklenmez. Bu nedenle yüksek lisans yapmanın tek amacı öğrenciyi akademik hayata veya akademik yazıma hazırlamaktır. Durum bu olunca tezlerin içeriğinden çok şekillerine önem verilir.</p>
+
+<p>Bu sebeplerden, yüksek lisans tez aşamasına geçinçe şunları aklınıın bir köşesinde tutun!</p>
+
+<ol>
+  <li>
+    <p><strong>Hazırladığınız tez hiçbir akademisyen tarafından ciddiye alınmayacaktır.</strong>
+ Bunun sebebi akademisyenlerin burnunun havada olması değil, yüksek lisans tezlerinin akademik derinlikten yoksun olmasıdır. Öte yandan sakın “nasılsa işe yaramayacak, o zaman karalayayım bir şeyler” diyerek işi savsaklamayın. Siz elinizden gelenin en iyisini yapın, zaten
+ hazırladığınız tez çok da bir işe yaramayacak ama sizi yetiştirecek. Ne demek istediğimi tezi bitirdikten sonra anlayacaksınız.</p>
+  </li>
+  <li>
+    <p><strong>Amacınız alana katkı sağlamak değil, ele aldığınız konuyu en iyi şekilde sunmak olsun.</strong>
+ Ne kadar iyi olursanız olun, başka bir alanda doktora yapmadıysanız yazdığınız tezin alana katkı sağlaması imkansız gibi bir şey.</p>
+  </li>
+  <li>
+    <p><strong>Danışmanınızın uzmanı olmadığı bir konu seçmeyin.</strong>
+ Bir veya iki yıl boyunca üzerine çalışacağınız konuda size en çok yardımcı olacak kişi danışmanınızdır. Danışmanızın çalıştığı konulardan birini seçerseniz takıldığınız yerde birinci elden yardım alabilirsiniz. Özellikle araştırmanın nasıl yapıldığını bilmediğiniz başlangıç aşamasında danışmanınız size can suyu olacak.</p>
+  </li>
+  <li>
+    <p><strong>Tez konunuzu geniş değil dar seçin.</strong>
+ Yüksek lisans öğrencilerinin yaptığı en büyük hatalardan biri bu. <strong>İslam’da Falan Şey</strong> veya <strong>İslam Tarihinde Falan Şey</strong> gibi başlıklar, altlarında bir yüksek lisans tezi değil, yıllarca ve bir ekibin ortaya koyabileceği bir çalışma ürünü barındırırlar. Zaten dikkat ederseniz doktora tezlerinin konusu yüksek lisans tezlerine göre çok daha dardır. Bunun sebebi yüksek lisans tezini hazırlamış birinin artık bir nebze de olsa bilgiyle donanmış olması ve bir konu hakkında derinlikli bir çalışma yapmanın ne kadar zor olduğunun farkına varmış olmasıdır. 
+ Size tavsiyem, konunuzu dar seçin. Dar seçtikten sonra onu da daraltın ve yazmayı düşündüğünüz tezin sadece bir bölümünü çalışın.</p>
+  </li>
+  <li>
+    <p><strong>Konuyu seçmeden önce tarama yapın</strong>
+ <img id="img2" src="/assets/images/saban_oz-arastirma.jpg" alt="Şaban Öz'ün Araştırma Yöntem ve Teknikleri başlıklı kitabının kapak resmi" /><a target="_blank" href="http://ktp2.isam.org.tr/?blm=arailhtezb&amp;navdil=tr">İlahiyat Fakültesi Tezler Kataloğu</a>‘nndan ve <a target="_blank" href="https://tez.yok.gov.tr/UlusalTezMerkezi/">Ulusal Tez Merkezi</a>‘nden alanınızla ilgili tezlere, vakit ayırarak bakın. İlginizi çeken tezleri indirin, bölümlendirmelerini inceleyin.</p>
+  </li>
+  <li>
+    <p><strong>Kılavuz kitaplardan yardım alın</strong>
+ İlahiyat alanı için Şaban Öz’ün <em>Araştırma Yöntem ve Teknikleri</em> kitabını şiddetle tavsiye ederim. Küçük hacimli bir kitap, oradaki yönergeleri uygulamaya çalışırsanız işiniz kolaylaşır. Yol gösterici olması açısından konuyla ilgili yazılmış kitaplar var. Mesela Muzffer Üstdal’ın <em>Başarılı Tezler Nasıl Hazırlanır</em> başlıklı kitabı. 
+ Son olarak Oku Okut Yayınları’ndan çıkan, <em>İlahiyat Araştırmalarında Veri Taraması: Veri Tabanları – Kütüphaneler - Atıf Dizinleri</em> başlıklı kitaba bakmanızı tavsiye ederim. Açık erişim olduğundan <a target="_blank_" href="https://yayin.okuokut.org/okuokut/catalog/book/isbn-9786057441690"> kendi web sitesinden</a> indirebilirsiniz.</p>
+  </li>
+</ol>
+
+<p>Başarılar dilerim.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Yüksek lisans akademik kariyerin ilk basamağı olduğundan yüksek lisans tezinin hazırlanması da büyük önem arz eder. Öğrenci bu konulara fazlasıyla yabancı olduğundan konuyu nasıl belirleyeceeği konusunda fikir sahibi olmadan işe girişir. Bunun sonucu olarak da çoğu kişi konuyu yanlış belirler.]]></summary></entry><entry><title type="html">Libreoffice Neyimize Yetmiyor?</title><link href="http://localhost:4000/2022/09/25/libreoffice.html" rel="alternate" type="text/html" title="Libreoffice Neyimize Yetmiyor?" /><published>2022-09-25T00:00:00+03:00</published><updated>2022-09-25T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/25/libreoffice</id><content type="html" xml:base="http://localhost:4000/2022/09/25/libreoffice.html"><![CDATA[<style>
+    img {
+      float: right;
+      margin: 5px;
+      border-radius: 3px;  
+    }
+    #footnote-1 {
+    font-size: 12px;
+    }
+    #footnote-2 {
+    font-size: 12px;
+    }
+  </style>
+
+<p>Libreoffice özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office’in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız <strong>word</strong>, hesaplar için kullandığınız <strong>excel</strong> ve slaytlar için kullandığınız <strong>powerpoint</strong>ten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların <!--more--> özgür<a href="#footnote-1"><sup>1</sup></a> olanları var.</p>
+
+<p>Libreoffice’in kullanımı zor değil. MS Office’e benziyor ama arayüzünde birtakım farklılıklar da mevcut. Eğer excelde ileri seviyede işler yapmıyorsanız çok kısa sürede alışabilirsiniz. Gerçi onları da yapabilirsiniz ancak alıştığınız kısa yollar ve bazı farklılıklar sizi zorlayabilir. Öte yandan MS Office’i bırakıp Libreoffice’e geçtiğiniz için bir sorun yaşayacağınızı düşünmüyorum çünkü 7. sürümden sonra MS Office ile uyumluluğu çok ileriye taşıdılar.</p>
+
+<p>Ben yaklaşık üç yıldır sadece Libreoffice kullanıyorum. Tezimi onunla yazdım. Bu süre boyunca defalarca danışmanıma ve tez komitesi üyelerine dosya yolladım ve onlar MS Office kullanıyordu. Buna rağmen tek bir sorunla karşılaşmadım. <a target="_blank" href="https://dergipark.org.tr/en/pub/imad">İslam Medeniyeti Araştırmaları Dergisi’</a>nin mizanpajını da ben yapıyorum. Hazırladığımı dört sayının son üçünü tamamen Libreoffice ile yaptım.</p>
+
+<p><img src="/assets/images/libreoffice_sidebar.png" alt="libreoffice writer sidebar" />Libreoffice'i kullanmamın asıl sebebi özgür olması ama sevdiğim yanları da çok. Mesela kenar çubuğunu çok seviyorum. Özellikle düzenlemelerde işi çok kolaylaştırıyor. Kenar çubuğunun kolaylıkla açılıp kapanması, "özelleştirme", "navigatör" ve "stiller" butonlarını içermesi, birçok işi hızlıca yapmayı sağlıyor. Son sürümlerinden itibaren MS Office'e benzer şekilde üstte sekmeli görünüme geçtiler ama ben yine de kenar çubuğundan vazgeçemiyorum. Bilgisayarların ekranları artık çok geniş olduğundan üstte iki satır olacağına yanda genişçe çubuklar olsun daha iyi.</p>
+
+<p>Peki Libreoffice mükemmel mi? Kesinlikle hayır. Hatta kullanımınıza bağlı olarak MS Office göre eksiklik bile bulabilirsiniz. Mesela MS Office'teki internete anlık otomatik kaydetmek Libreoffice'te yok. Otomatik kaydetme sıklığını 1 dakika şeklinde ayarlayıp çalışmanızın kaybolmasını engelleyebilirsiniz ama internete yedekleme işi MS Office gibi kullanışlı değil.</p>
+
+<p>Bu yazıyı neden yazıyorum? Türkiye’de neredeyse Libreoffice kullanan yokken bu yazıyı okuyan bir kişi neden alışkanlığından vazgeçip yeni bir şeyler öğrenmekle uğraşsın ki? Bilemiyorum belki <strong>kaçak yazılım</strong> kullanmak birilerinin canına tak etmiştir de bu yazı ona bir fikir verir dedim. Ya da ne bileyim kurumlarımız Microsoft’un ücretli yazılımına dünya kadar para vermenin aslında gerekli olmadığını bilmiyordur. Nitekim Eyüp Belediyesi özgür yazılıma geçerek 2 milyon dolar tasarruf edebiliyor.<a href="#footnote-2"><sup>2</sup></a> Düşünsenize bu sadece bir belediye…</p>
+
+<p><br /></p>
+<p id="footnote-1">[1] Özgür yazılım ücretsizdir ama sadece ücretsiz demek değildir. Detaylı bilgi için <a target="_blank" href="https://tr.wikipedia.org/wiki/%C3%96zg%C3%BCr_yaz%C4%B1l%C4%B1m">Vikipedi'ye bakabilirsiniz</a>.</p>
+<p id="footnote-2">[2] <a target="_blank" href="https://www.aa.com.tr/tr/sirkethaberleri/belediye/eyupsultan-yerli-yazilimla-2-milyon-dolar-tasarruf-etti/645993">Eyüb Belediyesi Yerli Yazılımla 2 Milyon Dolar Tasarruf Etti Haberi.</a></p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Libreoffice özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office’in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız word, hesaplar için kullandığınız excel ve slaytlar için kullandığınız powerpointten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların]]></summary></entry><entry><title type="html">Arch Linux EBYS Tübitak e-imza Kurulumu</title><link href="http://localhost:4000/2022/09/18/arch_linux_eimza.html" rel="alternate" type="text/html" title="Arch Linux EBYS Tübitak e-imza Kurulumu" /><published>2022-09-18T00:00:00+03:00</published><updated>2022-09-18T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/18/arch_linux_eimza</id><content type="html" xml:base="http://localhost:4000/2022/09/18/arch_linux_eimza.html"><![CDATA[<p>Bizde <strong>ACS ACR38T Beyaz</strong> kart okuyucu var.</p>
 
 <p>Öncelikle <code class="language-plaintext highlighter-rouge">pcsclite</code> dosyasını ve aur’dan <code class="language-plaintext highlighter-rouge">akia</code> dosyalarını yükledim.</p>
 
 <p>EBYS üzerinden imza atmak istediğimde site benden <strong>envision</strong> <strong>istemcisini</strong> kurmamı istedi. İnen <strong>deb</strong> uzantılı dosyayı <strong>debtap</strong> ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım.</p>
 
-<!--more-->
-
-<p>Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle:</p>
+<p>Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle: <!--more--></p>
 
 <p>Envision istemcisi systemd’ye <strong>socket</strong> adında bir modül ekliyor ancak modül çalıştırılmıyor. Bunun iki nedeni var: Birincisi <code class="language-plaintext highlighter-rouge">pyton2</code> eksikliği, ikincisi /usr/CBKSoft dizininin sahibinin <strong>root</strong> olması.</p>
 
@@ -39,4 +152,6 @@ dizinin içindeki iki dosyanın özelliklerine baktım. Birlikte açmak için va
 <code class="language-plaintext highlighter-rouge">cannot encode tr.gov.tubitak.uekae.esya.asn.cms.SignedData@1</code>
 hatası çıktı.</p>
 
-<p><a href="https://kamusm.bilgem.tubitak.gov.tr/depo/sertifikalar/depo.jsp">Tübitak</a>‘ın sitesinden en alttaki Sertifikadeposu.svt’yi indirip kullanıcı dizinimde gizli bulanan .sertifikadeposu dizininin içine attım. Burada önceden aynı isimde bir dosya vardı ama sanırım bozuktu. Onunla değiştir deyince sorun düzeldi.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Arch Linux EBYS Tübitak e-imza Kurulumu Bizde ACS ACR38T Beyaz kart okuyucu var. Öncelikle pcsclite dosyasını ve aur’dan akia dosyalarını yükledim. EBYS üzerinden imza atmak istediğimde site benden envision istemcisini kurmamı istedi. İnen deb uzantılı dosyayı debtap ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım.]]></summary></entry></feed>
+<p><a target="_blank" href="https://kamusm.bilgem.tubitak.gov.tr/depo/sertifikalar/depo.jsp">Tübitak</a>‘ın sitesinden en alttaki Sertifikadeposu.svt’yi indirip kullanıcı dizinimde gizli bulanan .sertifikadeposu dizininin içine attım. Burada önceden aynı isimde bir dosya vardı ama sanırım bozuktu. Onunla değiştir deyince sorun düzeldi.</p>
+
+<p style="font-size: 12px;">Aklınıza takılın bir şey olursa alttaki e-posta adresimden bana ulaşabilirsiniz.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Bizde ACS ACR38T Beyaz kart okuyucu var. Öncelikle pcsclite dosyasını ve aur’dan akia dosyalarını yükledim. EBYS üzerinden imza atmak istediğimde site benden envision istemcisini kurmamı istedi. İnen deb uzantılı dosyayı debtap ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım. Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle:]]></summary></entry></feed>

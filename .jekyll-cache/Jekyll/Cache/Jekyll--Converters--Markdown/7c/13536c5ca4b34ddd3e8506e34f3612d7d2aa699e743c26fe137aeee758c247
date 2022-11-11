@@ -1,0 +1,16 @@
+I"�<style>
+    #logo {
+        width: 250px;
+        height: auto;
+        float: left;
+    }
+    .imgler {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 3px;
+    }
+</style>
+
+<p>Kitap, makale gibi akademik yayınlarda dipnot verirken metinlerdeki dipnotları takip etmek zor olduğundan bu işi yazarın yerine yapacak uygulamalar kullanılmaktadır.</p>
+:ET

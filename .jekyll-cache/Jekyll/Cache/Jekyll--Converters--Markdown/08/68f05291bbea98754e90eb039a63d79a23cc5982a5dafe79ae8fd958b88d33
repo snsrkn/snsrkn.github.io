@@ -1,0 +1,34 @@
+I"<p>Bizde <strong>ACS ACR38T Beyaz</strong> kart okuyucu var.</p>
+
+<p>Öncelikle <code class="language-plaintext highlighter-rouge">pcsclite</code> dosyasını ve aur’dan <code class="language-plaintext highlighter-rouge">akia</code> dosyalarını yükledim.</p>
+
+<p>EBYS üzerinden imza atmak istediğimde site benden <strong>envision</strong> <strong>istemcisini</strong> kurmamı istedi. İnen <strong>deb</strong> uzantılı dosyayı <strong>debtap</strong> ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım.</p>
+
+<p>Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle: <!--more--></p>
+
+<p>Envision istemcisi systemd’ye <strong>socket</strong> adında bir modül ekliyor ancak modül çalıştırılmıyor. Bunun iki nedeni var: Birincisi <code class="language-plaintext highlighter-rouge">pyton2</code> eksikliği, ikincisi /usr/CBKSoft dizininin sahibinin <strong>root</strong> olması.</p>
+
+<p>python2’nin kurulumu kolay. <code class="language-plaintext highlighter-rouge">pacman -S python2</code></p>
+
+<p>İkincisine gelince: Dosya izinlerinden çok anlamadığım için acemi usulü Dolphin’i root olarak çalıştırdım, CBKSoft dizininin sahiplerine kendi kullanıcımı ekledim ve bunu tüm alt dizinlere ve dosyalara uygula dedim. Bunu yaptıktan sonra</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo systemctl enable --now socket.service</code> deyince socket çalışmaya başladı.</p>
+
+<p>Bu arada java 18 falan çalışmayabilir. Bu yüzden aur’dan <strong>Oracle’ın java 8</strong>‘ini kurmam gerekti. Şu andaki adı <code class="language-plaintext highlighter-rouge">jre8</code>. Kurduktan sonra java 8’i şu şekilde varsayılan yaptım:</p>
+
+<p>java sürümlerini listelemek için <code class="language-plaintext highlighter-rouge">archlinux-java status</code> dedim. Ardından</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo archlinux-java set java-8-jre/jre</code> komutuyla işi tamamladım.</p>
+
+<p>Yetti mi? Yetmeyebilir… Bunun için
+<code class="language-plaintext highlighter-rouge">/usr/CBKSoft/enVision.Client.Service/SignerCMSTubitak/</code>
+dizinin içindeki iki dosyanın özelliklerine baktım. Birlikte açmak için varsayılan uygulamanın java 8 olduğundan emin olmalıydım.</p>
+
+<p>Bütün bunları yapınca çalışır gibi oldu ama bir sorun daha çıkardı. İmzamı girince
+<code class="language-plaintext highlighter-rouge">cannot encode tr.gov.tubitak.uekae.esya.asn.cms.SignedData@1</code>
+hatası çıktı.</p>
+
+<p><a target="_blank" href="https://kamusm.bilgem.tubitak.gov.tr/depo/sertifikalar/depo.jsp">Tübitak</a>‘ın sitesinden en alttaki Sertifikadeposu.svt’yi indirip kullanıcı dizinimde gizli bulanan .sertifikadeposu dizininin içine attım. Burada önceden aynı isimde bir dosya vardı ama sanırım bozuktu. Onunla değiştir deyince sorun düzeldi.</p>
+
+<p style="font-size: 12px;">Aklınıza takılın bir şey olursa alttaki e-posta adresimden bana ulaşabilirsiniz.</p>
+:ET

@@ -1,0 +1,16 @@
+I"�<style>
+    img {
+      float: right;
+      margin: 5px;
+      border-radius: 3px;  
+    }
+    #footnote-1 {
+    font-size: 12px;
+    }
+    #footnote-2 {
+    font-size: 12px;
+    }
+  </style>
+
+<p>Libreoffice özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office’in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız <strong>word</strong>, hesaplar için kullandığınız <strong>excel</strong> ve slaytlar için kullandığınız <strong>powerpoint</strong>ten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların</p>
+:ET

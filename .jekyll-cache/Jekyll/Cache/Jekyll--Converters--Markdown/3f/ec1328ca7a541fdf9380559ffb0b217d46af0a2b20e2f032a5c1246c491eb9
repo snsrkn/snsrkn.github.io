@@ -1,0 +1,15 @@
+I"<style>
+    #img2 {
+      float: right;
+      margin: 5px;
+      border-radius: 3px;  
+      width: 145px;
+      height: auto;
+    }
+    #img1 {
+    border-radius: 3px;
+    }
+  </style>
+
+<p><strong>Yüksek lisans akademik kariyerin ilk basamağı olduğundan yüksek lisans tezinin hazırlanması da büyük önem arz eder. Öğrenci bu konulara fazlasıyla yabancı olduğundan konuyu nasıl belirleyeceeği konusunda fikir sahibi olmadan işe girişir. Bunun sonucu olarak da çoğu kişi konuyu yanlış belirler.</strong></p>
+:ET

@@ -1,0 +1,8 @@
+I"�<p>Bizde <strong>ACS ACR38T Beyaz</strong> kart okuyucu var.</p>
+
+<p>Öncelikle <code class="language-plaintext highlighter-rouge">pcsclite</code> dosyasını ve aur’dan <code class="language-plaintext highlighter-rouge">akia</code> dosyalarını yükledim.</p>
+
+<p>EBYS üzerinden imza atmak istediğimde site benden <strong>envision</strong> <strong>istemcisini</strong> kurmamı istedi. İnen <strong>deb</strong> uzantılı dosyayı <strong>debtap</strong> ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım.</p>
+
+<p>Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle:</p>
+:ET
