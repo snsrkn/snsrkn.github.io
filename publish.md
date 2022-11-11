@@ -15,8 +15,5 @@ title: Yayınlarım
     </details><br>
 
 - _Yusuf SANSARKAN_<br>
-<a target="_blank" href="https://dergipark.org.tr/en/pub/imad/issue/49651/430574">Hakem Olayı Özelinde Mezhebî Kaygının Tarih Aktarım ve Yorumuna Etkisi</a>
-    <details>
-        <summary>Özet</summary>
-        <p>Tarih alanında deney ve gözlem metodu kullanılmadığından, geçmişin gerçekliklerine ulaşmanın yolu bugüne ulaşan haberlerdir. Bu haberlerin insanlar tarafından aktarılması, tarihî verilere duyguların karışmasına ve çoğu zaman gerçeklerin saklı kalmasına neden olmaktadır. İnsanların, aktarımlarında nesnellikten kopmasının nedenlerinden biri de râvilerin bir mezhebe mensup olmasıdır. Mezhep aidiyeti, kişinin olay ve olguları mezhebinin bakış açısıyla anlamasına, yorumlamasına ve aktarmasına neden olmaktadır. Sonraki süreçte teşekküllerini tamamlayacak üç büyük mezhebin doğrudan taraf olduğu Hakem Olayı, mezhep etkisinin araştırılması gereken olaylardan biridir. Tahkim meselesindeki taraflardan birinin lideri olan Hz. Ali’den dolayı Şia, bu olay sonucunda Hz. Ali’den ayrılarak ilk mezhebi oluşturan Havâric ve geri kalan çoğunluğun mezhebi olan Ehl-i sünnet, zikredilen olayda taraf olan mezheplerdir. Büyük bir mezhebin ortaya çıkmasına neden olması, Hz. Ali’nin taraflardan birine liderlik etmesi ve Müslümanlar arasındaki ilk büyük savaşın bir parçasını teşkil etmesi nedeniyle son derece önemli olan Hakem Olayı’nın karanlık noktalarının aydınlatılması, bu çalışmanın çıkış noktasını oluşturmaktadır. Çalışmanın amacı, olaya dair rivayetlerin karşılaştırılarak aralarındaki farkların değerlendirilmesi, böylece mezhep etkisinin bu rivayetlerde ne tür yönlendirmelere neden olduğunun ortaya çıkarılmasıdır. Sonuçta mezhebî bakışın tarih aktarımında etkili olduğu gözlemlenmiş, tahkim meselesinin kronolojik sırasına uygun olarak bazı örneklerle bu gözlemler detaylandırılmıştır</p>
-    </details>
+<a href="/_publish/hakem_olayi.md">Hakem Olayı Özelinde Mezhebî Kaygının Tarih Aktarım ve Yorumuna Etkisi</a>
+
