@@ -15,5 +15,5 @@ title: Yayınlarım
     </details><br>
 
 - _Yusuf SANSARKAN_<br>
-<a href="/_publish/hakem_olayi.md">Hakem Olayı Özelinde Mezhebî Kaygının Tarih Aktarım ve Yorumuna Etkisi</a>
+<a href="/yayinlar/hakem_olayi.html">Hakem Olayı Özelinde Mezhebî Kaygının Tarih Aktarım ve Yorumuna Etkisi</a>
 
