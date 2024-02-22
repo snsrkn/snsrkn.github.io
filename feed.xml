@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-16T17:15:50+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Kişisel Web Sitesi
-</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry><title type="html">Zotero Kullanmak Önemli</title><link href="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html" rel="alternate" type="text/html" title="Zotero Kullanmak Önemli" /><published>2022-10-22T00:00:00+03:00</published><updated>2022-10-22T00:00:00+03:00</updated><id>http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi</id><content type="html" xml:base="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-22T21:44:06+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Kişisel Web Sitesi
+</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry><title type="html">Akademik Çalışmalarda Zaman Takibi</title><link href="http://localhost:4000/2024/02/22/zaman_takibi.html" rel="alternate" type="text/html" title="Akademik Çalışmalarda Zaman Takibi" /><published>2024-02-22T00:00:00+03:00</published><updated>2024-02-22T00:00:00+03:00</updated><id>http://localhost:4000/2024/02/22/zaman_takibi</id><content type="html" xml:base="http://localhost:4000/2024/02/22/zaman_takibi.html"><![CDATA[<p>Akademik çalışmalarda düzenli çalışmak, diğer işlere nazaran daha önemlidir. Bilgisayar başında çalışıyorsanız, dikkatinizi dağıtacak, sizi meşgul edecek çok fazla şey bulunduğundan, o düzeni korumak hayli zorlaşır.</p>
+
+<p>Azim, irade, motive edici hedeflerin yanında düzenli çalışmaya yardımcı olacak araçlardan biri de zaman takibidir. Zaman takibi derken gerçek anlamda çalıştığınız süreyi, çalıştığınızı sandığınız süreden ayırmayı kastediyorum.
+<!--more-->
+Çalıştığınız zaman ile çalıştığınızı sandığınız zaman konusu size saçma geldiyse, bir süre gerçek anlamda çalıştığınız zamanı kontrol edin, ne demek istediğimi anlayacaksınız.</p>
+
+<p>Bilgisayar başında ya da masada sekiz saat duruyorsanız, bu sizin sekiz saat çalıştığınız anlamına gelmiyor. Farkında olmasanız da bunun yarısından fazlası başka işlerle geçiyor. Bir de bakıyorsunuz ki 2 saat 50 dakika çalışmışsınız ki bu büyük bir skor!</p>
+
+<p>Benim zaman takibi için kullandığım uygulamanın adı <a target="_blank" href="https://super-productivity.com/">Super Productivity</a></p>
+
+<p>Uygulamayı açıp projenizin adını yazıyorsunuz. Bunlar birden fazla da olabilir, hangisiyle uğraşıyorsanız onun süresini takip ediyorsunuz. Örneğin makale yazarken, makalenin süresini başlatıyor, kitap okurken onun için süre başlatıyorsunuz. Her bir çalışmanın süresini birbirinden ayrı tutuyor.</p>
+
+<p><img src="https://super-productivity.com/static/7d2933a034590b3f40301a65e1d52538/bbbeb/standard.png" alt="" /></p>
+
+<p>Uygulamanın tek mahareti bu değil elbette. Çalışmalarınızı pomodoro şeklinde bölebiliyor. Yani isterseniz 25 dakika çalışma 5 dakika dinlenme alışkanlığınızı bu uygulamayla devam ettirebilirsiniz. Üstelik çalışma süresi bittikten sonra teneffüsü başlatmazsanız geçen süreyi çalışma süresine eklemeye devam ediyor. Bu çok önemli çünkü yoğunlaştığınız zaman teneffüs uyarısını görmeyebilirsiniz.</p>
+
+<p>Uygulamanın bir diğer sevdiğim özelliği çalışma sürelerini elle girebilme. Diyelim ki uygulamayı başlatmayı unuttunuz ve bir saattir çalışıyorsunuz. Bunu elle çalıştığınız süreye ekleyebiliyorsunuz. Böylece akşam “Günü tamamla” dediğinizde gerçek anlamda günü kaç saat çalışmayla bitirdiğinizi görebiliyorsunuz.</p>
+
+<p><img src="https://super-productivity.com/static/92c8d60be9f55a4bf6a8ebc97e3bb6a5/bbbeb/calendar.png" alt="" /></p>
+
+<p>Uygulama çalışırken bilgisayarı terk ederseniz, uygulama çalışma süresini takip etmeyi kesiyor. Siz bilgisayara geri döndüğünüzde, ne kadar süredir uzakta olduğunuzu söyleyip, bu sürede ne yaptığınızı seçmenizi istiyor. Geçen süreyi dilerseniz çalıştığınız projeye ekleyebiliyor, dilerseniz teneffüs olarak tercih edebiliyorsunuz. Hatta “boş ver o süreyi” bile diyebiliyorsunuz.</p>
+
+<p>Böyle bir uygulama kullanmayı adet edinirseniz, yaptığınız işleri ne kadar sürede tamamladığınızı görür, hem zamanınızı daha dikkatli harcar hem de sonraki projeler için doğru bitirme günü tahminlerinde bulunabilirsiniz.</p>
+
+<p>Zaman çok hızlı geçiyor. Onu tutmanın, durdurmanın çaresi yok, bari takip edelim.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Akademik çalışmalarda düzenli çalışmak, diğer işlere nazaran daha önemlidir. Bilgisayar başında çalışıyorsanız, dikkatinizi dağıtacak, sizi meşgul edecek çok fazla şey bulunduğundan, o düzeni korumak hayli zorlaşır. Azim, irade, motive edici hedeflerin yanında düzenli çalışmaya yardımcı olacak araçlardan biri de zaman takibidir. Zaman takibi derken gerçek anlamda çalıştığınız süreyi, çalıştığınızı sandığınız süreden ayırmayı kastediyorum.]]></summary></entry><entry><title type="html">Zotero Kullanmak Önemli</title><link href="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html" rel="alternate" type="text/html" title="Zotero Kullanmak Önemli" /><published>2022-10-22T00:00:00+03:00</published><updated>2022-10-22T00:00:00+03:00</updated><id>http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi</id><content type="html" xml:base="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html"><![CDATA[<style>
     #logo {
         width: 250px;
         height: auto;
@@ -122,36 +146,4 @@
 
 <p><br /></p>
 <p id="footnote-1">[1] Özgür yazılım ücretsizdir ama sadece ücretsiz demek değildir. Detaylı bilgi için <a target="_blank" href="https://tr.wikipedia.org/wiki/%C3%96zg%C3%BCr_yaz%C4%B1l%C4%B1m">Vikipedi'ye bakabilirsiniz</a>.</p>
-<p id="footnote-2">[2] <a target="_blank" href="https://www.aa.com.tr/tr/sirkethaberleri/belediye/eyupsultan-yerli-yazilimla-2-milyon-dolar-tasarruf-etti/645993">Eyüb Belediyesi Yerli Yazılımla 2 Milyon Dolar Tasarruf Etti Haberi.</a></p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Libreoffice özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office’in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız word, hesaplar için kullandığınız excel ve slaytlar için kullandığınız powerpointten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların]]></summary></entry><entry><title type="html">Arch Linux EBYS Tübitak e-imza Kurulumu</title><link href="http://localhost:4000/2022/09/18/arch_linux_eimza.html" rel="alternate" type="text/html" title="Arch Linux EBYS Tübitak e-imza Kurulumu" /><published>2022-09-18T00:00:00+03:00</published><updated>2022-09-18T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/18/arch_linux_eimza</id><content type="html" xml:base="http://localhost:4000/2022/09/18/arch_linux_eimza.html"><![CDATA[<p>Bizde <strong>ACS ACR38T Beyaz</strong> kart okuyucu var.</p>
-
-<p>Öncelikle <code class="language-plaintext highlighter-rouge">pcsclite</code> dosyasını ve aur’dan <code class="language-plaintext highlighter-rouge">akia</code> dosyalarını yükledim.</p>
-
-<p>EBYS üzerinden imza atmak istediğimde site benden <strong>envision</strong> <strong>istemcisini</strong> kurmamı istedi. İnen <strong>deb</strong> uzantılı dosyayı <strong>debtap</strong> ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım.</p>
-
-<p>Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle: <!--more--></p>
-
-<p>Envision istemcisi systemd’ye <strong>socket</strong> adında bir modül ekliyor ancak modül çalıştırılmıyor. Bunun iki nedeni var: Birincisi <code class="language-plaintext highlighter-rouge">pyton2</code> eksikliği, ikincisi /usr/CBKSoft dizininin sahibinin <strong>root</strong> olması.</p>
-
-<p>python2’nin kurulumu kolay. <code class="language-plaintext highlighter-rouge">pacman -S python2</code></p>
-
-<p>İkincisine gelince: Dosya izinlerinden çok anlamadığım için acemi usulü Dolphin’i root olarak çalıştırdım, CBKSoft dizininin sahiplerine kendi kullanıcımı ekledim ve bunu tüm alt dizinlere ve dosyalara uygula dedim. Bunu yaptıktan sonra</p>
-
-<p><code class="language-plaintext highlighter-rouge">sudo systemctl enable --now socket.service</code> deyince socket çalışmaya başladı.</p>
-
-<p>Bu arada java 18 falan çalışmayabilir. Bu yüzden aur’dan <strong>Oracle’ın java 8</strong>‘ini kurmam gerekti. Şu andaki adı <code class="language-plaintext highlighter-rouge">jre8</code>. Kurduktan sonra java 8’i şu şekilde varsayılan yaptım:</p>
-
-<p>java sürümlerini listelemek için <code class="language-plaintext highlighter-rouge">archlinux-java status</code> dedim. Ardından</p>
-
-<p><code class="language-plaintext highlighter-rouge">sudo archlinux-java set java-8-jre/jre</code> komutuyla işi tamamladım.</p>
-
-<p>Yetti mi? Yetmeyebilir… Bunun için
-<code class="language-plaintext highlighter-rouge">/usr/CBKSoft/enVision.Client.Service/SignerCMSTubitak/</code>
-dizinin içindeki iki dosyanın özelliklerine baktım. Birlikte açmak için varsayılan uygulamanın java 8 olduğundan emin olmalıydım.</p>
-
-<p>Bütün bunları yapınca çalışır gibi oldu ama bir sorun daha çıkardı. İmzamı girince
-<code class="language-plaintext highlighter-rouge">cannot encode tr.gov.tubitak.uekae.esya.asn.cms.SignedData@1</code>
-hatası çıktı.</p>
-
-<p><a target="_blank" href="https://kamusm.bilgem.tubitak.gov.tr/depo/sertifikalar/depo.jsp">Tübitak</a>‘ın sitesinden en alttaki Sertifikadeposu.svt’yi indirip kullanıcı dizinimde gizli bulanan .sertifikadeposu dizininin içine attım. Burada önceden aynı isimde bir dosya vardı ama sanırım bozuktu. Onunla değiştir deyince sorun düzeldi.</p>
-
-<p style="font-size: 12px;">Aklınıza takılın bir şey olursa alttaki e-posta adresimden bana ulaşabilirsiniz.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Bizde ACS ACR38T Beyaz kart okuyucu var. Öncelikle pcsclite dosyasını ve aur’dan akia dosyalarını yükledim. EBYS üzerinden imza atmak istediğimde site benden envision istemcisini kurmamı istedi. İnen deb uzantılı dosyayı debtap ile Arch’a kurulacak şekilde dönüştürdüm. Dönüştürme sırasında herhangi bir değişiklik yapmadım. Envision istemcisi kuruldu ama kurulum sonrası hatası verdi. Bu sorunun açıklaması şöyle:]]></summary></entry></feed>
+<p id="footnote-2">[2] <a target="_blank" href="https://www.aa.com.tr/tr/sirkethaberleri/belediye/eyupsultan-yerli-yazilimla-2-milyon-dolar-tasarruf-etti/645993">Eyüb Belediyesi Yerli Yazılımla 2 Milyon Dolar Tasarruf Etti Haberi.</a></p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Libreoffice özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office’in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız word, hesaplar için kullandığınız excel ve slaytlar için kullandığınız powerpointten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların]]></summary></entry></feed>
