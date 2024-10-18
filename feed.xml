@@ -1,9 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-08T16:24:02+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Kişisel Web Sitesi
-</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry><title type="html">Akademik Çalışmalarda Zaman Takibi</title><link href="http://localhost:4000/2024/02/22/zaman_takibi.html" rel="alternate" type="text/html" title="Akademik Çalışmalarda Zaman Takibi" /><published>2024-02-22T00:00:00+03:00</published><updated>2024-02-22T00:00:00+03:00</updated><id>http://localhost:4000/2024/02/22/zaman_takibi</id><content type="html" xml:base="http://localhost:4000/2024/02/22/zaman_takibi.html"><![CDATA[<p>Akademik çalışmalarda düzenli çalışmak, diğer işlere nazaran daha önemlidir. Bilgisayar başında çalışıyorsanız, dikkatinizi dağıtacak, sizi meşgul edecek çok fazla şey bulunduğundan, o düzeni korumak hayli zorlaşır.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-18T23:10:25+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Kişisel Web Sitesi
+</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry><title type="html">İlahiyat Dergilerinde Standart Eksikliği</title><link href="http://localhost:4000/2024/10/18/standart_eksikligi.html" rel="alternate" type="text/html" title="İlahiyat Dergilerinde Standart Eksikliği" /><published>2024-10-18T00:00:00+03:00</published><updated>2024-10-18T00:00:00+03:00</updated><id>http://localhost:4000/2024/10/18/standart_eksikligi</id><content type="html" xml:base="http://localhost:4000/2024/10/18/standart_eksikligi.html"><![CDATA[<style>
+    #dktl {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;   
+    }
+    .rsmlr {
+        width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #plan {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+</style>
 
-<p>Azim, irade, motive edici hedeflerin yanında düzenli çalışmaya yardımcı olacak araçlardan biri de zaman takibidir. Zaman takibi derken gerçek anlamda çalıştığınız süreyi, çalıştığınızı sandığınız süreden ayırmayı kastediyorum.
+<p><img id="dktl" src="/assets/images/daktilo.jpg" alt="içinde article yazan bir kağıdın olduğu bir daktilo" /><br />
+Bugün <em>Belleten</em>‘in sayfasına bakarken gözüme ilginç bir şey takıldı. <em>Belleten</em> Türkiye’de yayın yapıp WOS’ta AHCI seviyesinde taranan dört dergiden biri. Gözüme takılan şey, <em>Belleten</em>‘in dipnot sayısını noktalama işaretinden önce istemesi. Normalde biz bunu yazım yanlışı olarak kabul ederken <em>Belleten</em> bunu şart koşuyor. Bazı editörler güldürmekte çok başarılı.
 <!--more-->
-Çalıştığınız zaman ile çalıştığınızı sandığınız zaman konusu size saçma geldiyse, bir süre gerçek anlamda çalıştığınız zamanı kontrol edin, ne demek istediğimi anlayacaksınız.</p>
+Dipnot vermenin kuralları üzerinde çok durmuşlar, bol bol örnek vermişler. Yani sizin akademisyen olmanız, ömrünüzü bu işlerle geçirmenizin hiçbir önemi yok. Eğer <em>Belleten</em>‘e yazı gönderecekseniz, oturup dipnot kurallarına çalışmanız lazım. Öyle Zotero’ydu falan da işe yaramıyor çünkü kuralları onlara özel. Ve bunlar 2024 yılında geçiyor.</p>
+
+<p><a href="https://belleten.gov.tr/" target="_blank"><em>Belleten</em></a>‘i AHCI’de olmanın verdiği özgüvenle baş başa bırakalım, biz kendi derdimizle uğraşalım.</p>
+
+<p><img class="rsmlr" src="/assets/images/dergipark.png" alt="bisiklet ve dergipark akademik logosu" />
+İlahiyat dergilerinin hemen hemen hepsinin yazım kurallarına baktığınızda, şeklin <a href="https://www.isnadsistemi.org/" target="_blank">İsnad</a>‘a göre düzenlenmesini şart koştuklarını görürsünüz. Hatta bazıları İsnad’a göre hazırlanmamış makalelerin değerlendirilmeye alınmayacağını söyleyerek yazarları tehdit bile ediyor. Buna karşılık birçok dergi İsnad’a uymuyor. Hayır yanlış yazmadım, dergilerin çoğu İsnad’a uymuyor.</p>
+
+<p>Normalde şunu demeniz beklenir. “Ben makalemi yazarım, bittiğinde makale alımına açık dergilere bakarım, istediğime yollarım. Nasıl olsa hepsi İsnad’ı şart koşuyor, ne ters gidebilir ki?” Ancak bunu diyebiliyor musunuz? Derginin biri 350 kelime öz isterken, diğeri 600, beriki 200 isteyebiliyor? Hani makaleyi İsnad’a göre düzenliyorduk? İsnad öz konusunda bir şey demiyor mu?</p>
+
+<p>Örnek mi gerekiyor? Hadi birkaç dergiyi maddeler halinde sıralayalım:</p>
+<ul>
+  <li><a href="https://dergipark.org.tr/tr/pub/hid/writing-rules" target="_blank">Hitit İlahiyat:</a> 500-750</li>
+  <li><a href="http://cuid.cumhuriyet.edu.tr/tr/pub/writing-rules" target="_blank">Cumhuriyet İlahiyat: 350-500</a></li>
+  <li><a href="https://dergipark.org.tr/tr/pub/artukluakademi/writing-rules" target="_blank">Artuklu Akademi:</a> 100-150</li>
+  <li><a href="https://dergipark.org.tr/tr/pub/sirnakifd/writing-rules" target="_blank">Şırnak İlahiyat:</a> 450-500</li>
+  <li><a href="https://dergipark.org.tr/tr/pub/sakaifd/writing-rules" target="_blank">Sakarya İlahiyat:</a> 150-200</li>
+  <li><a href="http://www.emakalat.com/tr/pub/writing-rules" target="_blank">E-Makalat:</a> 100-200</li>
+</ul>
+
+<p>Bu dergileri özel seçmedim. Rasgele altı dergi arattım, sonuç bu! Gördüğünüz gibi içlerinden bir tanesi bile İsnad’a göre öz istemiyor. Daha da ilginç olanı iki derginin istediği birbiriyle uyuşmuyor. Sanki herkes kafasına göre takılıyor. 
+<img class="rsmlr" src="/assets/images/wrong.jpg" alt="1+1=3 yazan bir tahta ve bir tebeşir" />
+Daha çok dergiye baksak, belki daha ilginç bir tabloyla karşılaşacağız ama bence gerek yok. Bunlar üzerinden istediğimiz eleştiriyi yapabiliriz.</p>
+
+<p>Önce uzun öz isteyen dergilerden bahsedelim. Mesela Hitit. 500 kelimenin üzerindeki bir yazı öz müdür? Mesela şu anada kadar okuduğunuz tüm yazı henüz 319 kelime. Bunun üzerine bu kadar daha eklediğinizde Hitit İlahiyat Dergisi’nin istediği, sözüm ona özün şartlarını karşılıyorsunuz. Böyle öz mü olur sayın editörler. 600 kelime neyin özü? Özün amacı, makaleyi bulan kişinin makale hakkında hızlıca fikir edinmesi değil mi?. Ben Kocatepe, Hitit gibi dergilerde yayımlanmış makalelerin özüne bakmıyorum mesela, doğrudan makaleye dalıyorum, daha hızlı oluyor.</p>
+
+<p>Kısa öz isteyenlere bir lafım yok ama burada İsnad da dahil aralık belirtenleri eleştirmek istiyorum. Mesela Sakarya İlahiyat ya da Şırnak İlahiyat. Sayın editörler siz yazarı neden 50 (elli) kelimelik bir alana hapsediyorsunuz? Sizde 450 kelimeyle ifade edilebilecek yargının 449 ile ifade edilemeyeceğine dair kanı nasıl oluştu? (Konu dışı olacak ama 450’yi özel yapan ne acaba çok merak ettim şimdi.)</p>
+
+<p>Öz ile ilgili son eleştirim alt sınırla ilgili. Rahat bırakın şu yazarları sayın editörler. Çok bildiğinizi sanıp yazarlara dayattıkça dayatıyorsunuz ama belli ki siz de bilmiyorsunuz. Bilseniz “aklın yolu bir” ilkesine bu kadar uzak olmazdınız diye tahmin ediyorum. Hal böyleyken bırakın da yazar makalesini istediği kadar az karakterle anlatsın. Eğer yapabiliyorsa ne kadar az söz, o kadar iyi! Bir yazar yazdığı makaleyi 85 kelime ile özetleyebiliyorsa, bu onun makalesinin tanıtımı için en iyisi değil mi? Siz 85 kelimeyi mi okursunuz 685’i mi? Hem kısa değerli olmasa neden makalelere kısa başlık istiyorsunuz?</p>
+
+<p>Kaygınızı anlıyorum. “Bizde makale yazmayı bilmeyen çok insan var, kafalarına göre yazıyorlar, bilimsel şartları taşımıyorlar.” diyorsunuz, bazen haklısınız ama şunu da unutmayın, siz sadece yayıncısınız. Makale sizinmiş gibi davranmaktan, herkesi aynı kalıba sokmaya çalışmaktan vazgeçin. 
+<img id="plan" src="/assets/images/secret_plan1.png" alt="üzerinde my secret plan to rule the world yazan bir defter" />
+Son olarak sayın editörler, madem İsnad diyorsunuz, her şeyi İsnad’a göre isteyin. Böylece Dergipark’taki sayfalarınız daha net ve kısa olacak. Yazarları sayfa yapısı, yazı tipi vb. konular dışında İsnad’a havale ettiğinizde, kendinizi de onları da daha az yormuş olacaksınız. Tüm dergiler bunu sağlasa, yazarlarda aşinalık artacak, düzeltme yükünüz de azalmış olacak.</p>
+
+<p>Bir de keşke dergilerinizi makale alımına hiç kapatmasanız!</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[İlahiyat dergilerinin hemen hemen hepsinin yazım kurallarına baktığınızda, şeklin İsnad'a göre düzenlenmesini şart koştuklarını görürsünüz. Buna karşılık birçok dergi İsnad'a uymuyor. Hayır yanlış yazmadım, dergilerin çoğu İsnad'a uymuyor.]]></summary></entry><entry><title type="html">Akademik Çalışmalarda Zaman Takibi</title><link href="http://localhost:4000/2024/02/22/zaman_takibi.html" rel="alternate" type="text/html" title="Akademik Çalışmalarda Zaman Takibi" /><published>2024-02-22T00:00:00+03:00</published><updated>2024-02-22T00:00:00+03:00</updated><id>http://localhost:4000/2024/02/22/zaman_takibi</id><content type="html" xml:base="http://localhost:4000/2024/02/22/zaman_takibi.html"><![CDATA[<p>Akademik çalışmalarda düzenli çalışmak, diğer işlere nazaran daha önemlidir. Bilgisayar başında çalışıyorsanız, dikkatinizi dağıtacak, sizi meşgul edecek çok fazla şey bulunduğundan, o düzeni korumak hayli zorlaşır.</p>
+
+<p>Azim, irade, motive edici hedeflerin yanında düzenli çalışmaya yardımcı olacak araçlardan biri de zaman takibidir. Zaman takibi derken gerçek anlamda çalıştığınız süreyi, çalıştığınızı sandığınız süreden ayırmayı kastediyorum.</p>
+
+<p>Çalıştığınız zaman ile çalıştığınızı sandığınız zaman konusu size saçma geldiyse, bir süre gerçek anlamda çalıştığınız zamanı kontrol edin, ne demek istediğimi anlayacaksınız.</p>
 
 <p>Bilgisayar başında ya da masada sekiz saat duruyorsanız, bu sizin sekiz saat çalıştığınız anlamına gelmiyor. Farkında olmasanız da bunun yarısından fazlası başka işlerle geçiyor. Bir de bakıyorsunuz ki 2 saat 50 dakika çalışmışsınız ki bu büyük bir skor!</p>
 
@@ -23,7 +83,7 @@
 
 <p>Böyle bir uygulama kullanmayı adet edinirseniz, yaptığınız işleri ne kadar sürede tamamladığınızı görür, hem zamanınızı daha dikkatli harcar hem de sonraki projeler için doğru bitirme günü tahminlerinde bulunabilirsiniz.</p>
 
-<p>Zaman çok hızlı geçiyor. Onu tutmanın, durdurmanın çaresi yok, bari takip edelim.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Akademik çalışmalarda düzenli çalışmak, diğer işlere nazaran daha önemlidir. Bilgisayar başında çalışıyorsanız, dikkatinizi dağıtacak, sizi meşgul edecek çok fazla şey bulunduğundan, o düzeni korumak hayli zorlaşır. Azim, irade, motive edici hedeflerin yanında düzenli çalışmaya yardımcı olacak araçlardan biri de zaman takibidir. Zaman takibi derken gerçek anlamda çalıştığınız süreyi, çalıştığınızı sandığınız süreden ayırmayı kastediyorum.]]></summary></entry><entry><title type="html">Zotero Kullanmak Önemli</title><link href="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html" rel="alternate" type="text/html" title="Zotero Kullanmak Önemli" /><published>2022-10-22T00:00:00+03:00</published><updated>2022-10-22T00:00:00+03:00</updated><id>http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi</id><content type="html" xml:base="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html"><![CDATA[<style>
+<p>Zaman çok hızlı geçiyor. Onu tutmanın, durdurmanın çaresi yok, bari takip edelim.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Bilgisayar başında ya da masada sekiz saat duruyorsanız, bu sizin sekiz saat çalıştığınız anlamına gelmiyor. Farkında olmasanız da bunun yarısından fazlası başka işlerle geçiyor.]]></summary></entry><entry><title type="html">Zotero İpuçları</title><link href="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html" rel="alternate" type="text/html" title="Zotero İpuçları" /><published>2022-10-22T00:00:00+03:00</published><updated>2022-10-22T00:00:00+03:00</updated><id>http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi</id><content type="html" xml:base="http://localhost:4000/2022/10/22/zotero_kullanmanin_onemi.html"><![CDATA[<style>
     #logo {
         width: 250px;
         height: auto;
@@ -67,7 +127,7 @@
 
 <p><img class="imgler" src="/assets/images/zotero_note.png" alt="zoteroda oluşturulmuş not" /></p>
 
-<p>Zotero’da aynı anda birçok pdf dosyasını açabilirsiniz. Bu dosyalar sekmeler halinde açılıyor. İşin güzel tarafı Zotero’yu kapatıp açtığınızda sekmeler hiç kapanmamış gibi orada duruyor.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Kitap, makale gibi akademik yayınlarda dipnot verirken metinlerdeki dipnotları takip etmek zor olduğundan bu işi yazarın yerine yapacak uygulamalar kullanılmaktadır.]]></summary></entry><entry><title type="html">Yüksek Lisans Tez Konusu Seçerken Dikkat!</title><link href="http://localhost:4000/2022/10/05/yl_tez_konusu.html" rel="alternate" type="text/html" title="Yüksek Lisans Tez Konusu Seçerken Dikkat!" /><published>2022-10-05T00:00:00+03:00</published><updated>2022-10-05T00:00:00+03:00</updated><id>http://localhost:4000/2022/10/05/yl_tez_konusu</id><content type="html" xml:base="http://localhost:4000/2022/10/05/yl_tez_konusu.html"><![CDATA[<style>
+<p>Zotero’da aynı anda birçok pdf dosyasını açabilirsiniz. Bu dosyalar sekmeler halinde açılıyor. İşin güzel tarafı Zotero’yu kapatıp açtığınızda sekmeler hiç kapanmamış gibi orada duruyor.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Zotero ile bir makaleyi yarım saat içinde okuyup, notlarını çıkarıp bu notları Obsidian'a aktararak fişlemenizi bitirebilirsiniz.]]></summary></entry><entry><title type="html">Yüksek Lisans Tez Konusu Seçerken Dikkat!</title><link href="http://localhost:4000/2022/10/05/yl_tez_konusu.html" rel="alternate" type="text/html" title="Yüksek Lisans Tez Konusu Seçerken Dikkat!" /><published>2022-10-05T00:00:00+03:00</published><updated>2022-10-05T00:00:00+03:00</updated><id>http://localhost:4000/2022/10/05/yl_tez_konusu</id><content type="html" xml:base="http://localhost:4000/2022/10/05/yl_tez_konusu.html"><![CDATA[<style>
     #img2 {
       float: right;
       margin: 5px;
@@ -118,7 +178,7 @@
   </li>
 </ol>
 
-<p>Başarılar dilerim.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Yüksek lisans akademik kariyerin ilk basamağı olduğundan yüksek lisans tezinin hazırlanması da büyük önem arz eder. Öğrenci bu konulara fazlasıyla yabancı olduğundan konuyu nasıl belirleyeceeği konusunda fikir sahibi olmadan işe girişir. Bunun sonucu olarak da çoğu kişi konuyu yanlış belirler.]]></summary></entry><entry><title type="html">Libreoffice Neyimize Yetmiyor?</title><link href="http://localhost:4000/2022/09/25/libreoffice.html" rel="alternate" type="text/html" title="Libreoffice Neyimize Yetmiyor?" /><published>2022-09-25T00:00:00+03:00</published><updated>2022-09-25T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/25/libreoffice</id><content type="html" xml:base="http://localhost:4000/2022/09/25/libreoffice.html"><![CDATA[<style>
+<p>Başarılar dilerim.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Maalesef Türkiye'de bir yüksek lisans öğrencisinin veya onun tezinin alana katkı sağlaması beklenmez.]]></summary></entry><entry><title type="html">Libreoffice Neyimize Yetmiyor?</title><link href="http://localhost:4000/2022/09/25/libreoffice.html" rel="alternate" type="text/html" title="Libreoffice Neyimize Yetmiyor?" /><published>2022-09-25T00:00:00+03:00</published><updated>2022-09-25T00:00:00+03:00</updated><id>http://localhost:4000/2022/09/25/libreoffice</id><content type="html" xml:base="http://localhost:4000/2022/09/25/libreoffice.html"><![CDATA[<style>
     img {
       float: right;
       margin: 5px;
@@ -132,7 +192,7 @@
     }
   </style>
 
-<p>Libreoffice özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office’in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız <strong>word</strong>, hesaplar için kullandığınız <strong>excel</strong> ve slaytlar için kullandığınız <strong>powerpoint</strong>ten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların <!--more--> özgür<a href="#footnote-1"><sup>1</sup></a> olanları var.</p>
+<p>Libreoffice özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office’in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız <strong>word</strong>, hesaplar için kullandığınız <strong>excel</strong> ve slaytlar için kullandığınız <strong>powerpoint</strong>ten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların özgür<a href="#footnote-1"><sup>1</sup></a> olanları var.</p>
 
 <p>Libreoffice’in kullanımı zor değil. MS Office’e benziyor ama arayüzünde birtakım farklılıklar da mevcut. Eğer excelde ileri seviyede işler yapmıyorsanız çok kısa sürede alışabilirsiniz. Gerçi onları da yapabilirsiniz ancak alıştığınız kısa yollar ve bazı farklılıklar sizi zorlayabilir. Öte yandan MS Office’i bırakıp Libreoffice’e geçtiğiniz için bir sorun yaşayacağınızı düşünmüyorum çünkü 7. sürümden sonra MS Office ile uyumluluğu çok ileriye taşıdılar.</p>
 
@@ -146,4 +206,4 @@
 
 <p><br /></p>
 <p id="footnote-1">[1] Özgür yazılım ücretsizdir ama sadece ücretsiz demek değildir. Detaylı bilgi için <a target="_blank" href="https://tr.wikipedia.org/wiki/%C3%96zg%C3%BCr_yaz%C4%B1l%C4%B1m">Vikipedi'ye bakabilirsiniz</a>.</p>
-<p id="footnote-2">[2] <a target="_blank" href="https://www.aa.com.tr/tr/sirkethaberleri/belediye/eyupsultan-yerli-yazilimla-2-milyon-dolar-tasarruf-etti/645993">Eyüb Belediyesi Yerli Yazılımla 2 Milyon Dolar Tasarruf Etti Haberi.</a></p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Libreoffice özgür bir ofis uygulamasıdır. Bilgisayarlarınızda kullandığınız Microsoft Office’in alternatifidir. Eğer hala bir şey çağrıştırmadıysa yazı yazmak için kullandığınız word, hesaplar için kullandığınız excel ve slaytlar için kullandığınız powerpointten bahsediyorum. İşte akademisyenlerin, öğretmenlerin ve memurların en çok kullandığı bu yazılımların]]></summary></entry></feed>
+<p id="footnote-2">[2] <a target="_blank" href="https://www.aa.com.tr/tr/sirkethaberleri/belediye/eyupsultan-yerli-yazilimla-2-milyon-dolar-tasarruf-etti/645993">Eyüb Belediyesi Yerli Yazılımla 2 Milyon Dolar Tasarruf Etti Haberi.</a></p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Bu yazıyı neden yazıyorum? Türkiye'de neredeyse Libreoffice kullanan yokken bu yazıyı okuyan bir kişi neden alışkanlığından vazgeçip yeni bir şeyler öğrenmekle uğraşsın ki?]]></summary></entry></feed>
