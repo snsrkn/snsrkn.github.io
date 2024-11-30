@@ -22,7 +22,14 @@
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Yusuf Sansarkan" />
 <meta name="google-site-verification" content="5yl5SUX54fQ7Fh4xfDnIcuvEHNThQPWWnCDfkmIangg" />
 </head>
-<body><header class="site-header">
+<script>
+    var userLang = navigator.language || navigator.userLanguage; 
+    if (userLang.startsWith('tr')) {
+      window.location.href = 'https://sansarkan.space/index.tr.html';
+    }
+  </script>
+
+  <body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Yusuf Sansarkan</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -33,7 +40,7 @@
             </svg>
           </span>
         </label>
-        <div class="trigger"><a class="page-link" href="/">About Me</a><a class="page-link" href="/blog.html">Blog</a><a class="page-link" href="/publish.html">Publications</a><a href="/index.tr.html">🇹🇷</a>
+        <div class="trigger"><a class="page-link" href="/">About Me</a><a class="page-link" href="/blog.html">Posts</a><a class="page-link" href="/publish.html">Publications</a><a href="/index.tr.html">🇹🇷</a>
         </div>
       </nav></div>
 </header>
