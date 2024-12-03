@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://sansarkan.space/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sansarkan.space/" rel="alternate" type="text/html" /><updated>2024-12-03T21:43:47+03:00</updated><id>https://sansarkan.space/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Personal Website
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://sansarkan.space/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sansarkan.space/" rel="alternate" type="text/html" /><updated>2024-12-03T23:02:27+03:00</updated><id>https://sansarkan.space/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Personal Website
 </subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry xml:lang="en"><title type="html">Multilingual Jekyll Website Without Plugin</title><link href="https://sansarkan.space/2024/12/03/multilingual.html" rel="alternate" type="text/html" title="Multilingual Jekyll Website Without Plugin" /><published>2024-12-03T00:00:00+03:00</published><updated>2024-12-03T00:00:00+03:00</updated><id>https://sansarkan.space/2024/12/03/multilingual</id><content type="html" xml:base="https://sansarkan.space/2024/12/03/multilingual.html"><![CDATA[<p>I had a jekyll website where I share my publications and write blog. Initially, I set it up to be in Turkish only. However after some time, I learned some English (as you can see, I’m still not fluent) I wanted to make the website available in both Turkish and English.</p>
 
 <p>I searched the web for guides on how to add multiple languages to a Jekyll website, but none of the solutions I found worked for me. Finally, with the help of Cloude 3 Haiku, I discovered a way to achieve this without using folders or plugins.</p>
@@ -153,7 +153,184 @@ in <code class="language-plaintext highlighter-rouge">headertr.html</code> chang
 
 <p>By taking these steps, finally I was able to create a multilingual Jekyll website. I’m excited to continue developing and improving my website in the future.</p>
 
-<p>If you have any question, please feel free to reach out to me at my e-mail.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Finally I was able to create a multilingual Jekyll website, without any plugins.]]></summary></entry><entry xml:lang="tr"><title type="html">İlahiyat Dergilerinde Standart Eksikliği</title><link href="https://sansarkan.space/2024/10/18/standart_eksikligi.html" rel="alternate" type="text/html" title="İlahiyat Dergilerinde Standart Eksikliği" /><published>2024-10-18T00:00:00+03:00</published><updated>2024-10-18T00:00:00+03:00</updated><id>https://sansarkan.space/2024/10/18/standart_eksikligi</id><content type="html" xml:base="https://sansarkan.space/2024/10/18/standart_eksikligi.html"><![CDATA[<style>
+<p>If you have any question, please feel free to reach out to me at my e-mail.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Finally I was able to create a multilingual Jekyll website, without any plugins.]]></summary></entry><entry xml:lang="tr"><title type="html">Jekyll ile Çok Dilli Site Yapmak</title><link href="https://sansarkan.space/2024/12/03/multilingual.tr.html" rel="alternate" type="text/html" title="Jekyll ile Çok Dilli Site Yapmak" /><published>2024-12-03T00:00:00+03:00</published><updated>2024-12-03T00:00:00+03:00</updated><id>https://sansarkan.space/2024/12/03/multilingual.tr</id><content type="html" xml:base="https://sansarkan.space/2024/12/03/multilingual.tr.html"><![CDATA[<p>Jekyll ile yaptığım bir websitem var. Burada akademik yayınlarımı ve yazdığım blog yazılarını paylaşıyorum. İlk başlarda siteyi sadece Türkçe kullanıyordum ancak biraz İngilizce öğrenince sitemi, İngilizce’yi de ekleyerek iki dilli yapmaya karar verdim.</p>
+
+<p>İnternette aramalar yaptım. Bunun nasıl yapılacağıyla ilgili çok şey var ancak hiçbiri benim istediğim sonucu vermedi. Sonunda Claude 3 Haiku’nun da yardımıyla siteyi klasörlere bölmeden ve plugin kullanmadan bunu yapmanın yolunu buldum.</p>
+
+<p>Adım adım anlatıyorum:</p>
+
+<h2 id="sayfaların-kopyasını-oluşturmak">Sayfaların kopyasını oluşturmak</h2>
+<p>Sitemde toplam üç sayfa var</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- index.md
+- blog.md
+- publish.md
+</code></pre></div></div>
+
+<p>Bunların birer kopyasını oluşturdum ve şöyle isimlendirdim:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- index.tr.md
+- blog.tr.md
+- publish.tr.md
+</code></pre></div></div>
+
+<p>_layouts’un altında <code class="language-plaintext highlighter-rouge">default.html</code> ve _includes’ın altında <code class="language-plaintext highlighter-rouge">header.html</code> adlı dosyaların da kopyalarını oluşturdum. Onları aşağıdaki gibi kullanıyorum:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>İngilizce Sayfalar için</th>
+      <th>Türkçe Sayfalar için</th>
+      <th>İndex Sayfası içi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>default.html</td>
+      <td>defaulttr.html</td>
+      <td>defindex.html</td>
+    </tr>
+    <tr>
+      <td>header.html</td>
+      <td>headertr.html</td>
+      <td>headerin.html</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="yeni-sayfaları-düzenlemek">Yeni sayfaları düzenlemek</h2>
+<p><code class="language-plaintext highlighter-rouge">defaulttr.html</code> içinde şu satırı</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{%- include header.html -%}
+</code></pre></div></div>
+<p>bu şekilde değiştirdim.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{%- include headertr.html -%}
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">headertr.html</code> içinde şu satırı</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{%- assign page_paths = site.header_pages | default: default_paths -%}
+</code></pre></div></div>
+<p>şu şekilde değiştirdim.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{%- assign page_paths = site.headertr_pages | default: default_paths -%}
+
+</code></pre></div></div>
+
+<p>📌<code class="language-plaintext highlighter-rouge">defindex.html</code> ve <code class="language-plaintext highlighter-rouge">headerin.html</code> içinde de benzer şekilde gerekli değişiklikleri yaptım.</p>
+
+<p>Her <code class="language-plaintext highlighter-rouge">.md</code> dosyanın front matterına gerekli YAML’ı aşağıdakine benzer şekilde ekledim.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+title: Title of page
+layout: defindex (Türkçe sayfalar içi defaulttr, İngilizce sayfalar için default,)
+lang: en (index.tr.html ve diğer Türkçe sayfalar için tr)
+---
+
+</code></pre></div></div>
+
+<p>❗ Her blog gönderisine <code class="language-plaintext highlighter-rouge">lang</code> etiketi eklemeyi unutmayın.</p>
+
+<h2 id="configymlnin-düzenlenmesi">Config.yml’nin düzenlenmesi</h2>
+<p><code class="language-plaintext highlighter-rouge">config.yml</code>‘ye aşağıdaki satırları ekledim:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>languages:
+ - en
+ - tr
+</code></pre></div></div>
+<p>yine <code class="language-plaintext highlighter-rouge">config.yml</code> içinde <code class="language-plaintext highlighter-rouge">header_pages</code>‘e Türkçeleri ekledim:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>header_pages:
+ - blog.md
+ - publish.md
+headertr_pages:
+  - blog.tr.md
+  - publish.tr.md
+</code></pre></div></div>
+
+<h2 id="dil-değiştirici">Dil değiştirici</h2>
+<p>Bunları yaptıktan sonra siteyi çalıştırdım. Açılış sayfası İngilizce index açılıyordu. Şimdi bir değiştirici eklemem gerekiyordu.</p>
+
+<p>Birkaç denemeden sonra anladım ki tek bir kodla her sayfayı değiştirmek mümkün değildi. İki günlük bir deneme yanılma sürecinin sonunda bir çözüm bulmayı başardım:</p>
+
+<p>Aşağıdaki satırı <code class="language-plaintext highlighter-rouge">headertr.html</code> içinde  <code class="language-plaintext highlighter-rouge">{%- endfor -%}</code>‘un altına <code class="language-plaintext highlighter-rouge">&lt;/div&gt;</code>‘in üstüne ekledim.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="{{ page.url | replace:'.tr.html','.html' }}"&gt;🇬🇧&lt;/a&gt;
+</code></pre></div></div>
+<p>Bunu da  <code class="language-plaintext highlighter-rouge">header.html</code> içinde aynı yere</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="{{ page.url | replace:'.html','.tr.html' }}"&gt;🇹🇷&lt;/a&gt;
+</code></pre></div></div>
+<p>Bununla Türkçe ve İngilizce blog ve yayınlarım sayfaları arasında dolaşabiliyordum.</p>
+
+<p>Buna rağmen index sayfalarım için farklı bir çözüm gerekliydi. Siteyi açtığımda adres satırında index.html yazmadığını fark ettim. Bu durumda dil değiştiricim bu sayfada düzgün çalışmayacaktır. Sonra baktım ki index sayfası için tek ihtiyacım doğrudan bir linkti. Bu nedenle aşağıdaki kodu, <code class="language-plaintext highlighter-rouge">defindex.html</code> içine yerleştirdim.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="/index.tr.html"&gt;🇹🇷&lt;/a&gt;
+</code></pre></div></div>
+
+<h2 id="tarayıcı-diline-göre-sayfa">Tarayıcı diline göre sayfa</h2>
+<p>Sitem istediğim gibi çalışsa da hala bir eksiklik vardı. Açılış sayfam, tarayıcı dili Türkçe bile olsa her zaman İngilizce açılıyordu.</p>
+
+<p>Siteyi açan kullanıcının tarayıcı dilini bularak ona göre açılış sayfası gösterecek bir kod bulmam gerekiyordu. Dil değiştiricide bana fikir veren Claude 3 Haiku burada da yardımıma yetişti.</p>
+
+<p>Aşağıdaki javascript kodunu <code class="language-plaintext highlighter-rouge">defindex.html</code> içine <code class="language-plaintext highlighter-rouge">{%- include head.html -%}</code>‘in altında <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>‘nin üstüne yerleştirdim.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;script&gt; 
+  var userLang = navigator.language || navigator.userLanguage; 
+  if (userLang.startsWith('tr') &amp;&amp; window.location.href.indexOf('index.html') === -1) 
+  { window.location.href = '/index.tr.html'; } 
+  &lt;/script&gt;
+
+</code></pre></div></div>
+
+<p>Bu kod, adres satırında <code class="language-plaintext highlighter-rouge">index.html</code> yazmadığında çalışıyor. Böylelikle dil değiştiriciyle İngilizce açılış sayfasına gidildiğinde kod çalışmayacak ve kullanıcının tarayıcı dili Türkçe olsa da kullanıcı Türkçe açılış sayfasına geri yönlendirilmeyecekti.</p>
+
+<h2 id="açılış-sayfasına-geri-dönme-probleminin-çözümü">Açılış sayfasına geri dönme probleminin çözümü</h2>
+<p>Jekyll websitemde Minima temayı kullanıyorum. Adım her sayfanın sol üst köşesinde görünüyor. Adıma tıkladığımda beni açılış sayfasına geri götürüyor ancak index.html yerine kök (/) sayfayı açıyor.</p>
+
+<p>Tarayıcının varsayılan dili Türkçe olduğu durumda adıma tıkladığımda, kök sayfaya gittiğimden, javascript kodu beni Türkçe ana sayfaya yönlendiriyordu.</p>
+
+<p>Bu durum, tarayıcının dili Türkçe’yken İngilizce blog ya da yayınlarım sayfasında dolaştığımda sorun çıkarıyordu.</p>
+
+<p>Bu sorunu her üç header dosyasında, aşağıdaki satırı değiştirerek çözdüm:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a class="site-title" rel="author" href="{{ "/" | relative_url }}"&gt;{{ site.title | escape }}&lt;/a&gt;
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">header.html</code> ve <code class="language-plaintext highlighter-rouge">headerin.html</code> dosyalarında <code class="language-plaintext highlighter-rouge">"/"</code>‘ü <code class="language-plaintext highlighter-rouge">"/index.html</code>, <code class="language-plaintext highlighter-rouge">headertr.html</code> içinde ise <code class="language-plaintext highlighter-rouge">"/index.tr.html</code> olarak değiştirdim.</p>
+
+<p>Bu değişiklik şunu sağlıyordu: Adıma tıkladığımda beni kök (/) yerine İngilizce sayfalarda index.html’ye, Türkçe sayfalarda index.tr.html’ye yönlendiriyordu.  Kök dizine gitmediğim için tekrar yönlendirme sorunu ortadan kalkıyordu.</p>
+
+<h2 id="blog-sayfaları">Blog sayfaları</h2>
+<p>Jekyll blog sayfalarını otomatik işlediğinden bunlarla uğraşmak biraz daha karmaşık olabilir ancak bunlara da benzer bir çözüm buldum.</p>
+
+<p>Daha önce <code class="language-plaintext highlighter-rouge">blog.md</code>‘nin kopyasını oluşturup <code class="language-plaintext highlighter-rouge">blog.md.tr</code> adıyla kaydettiğimi söylemiştim. Böylelikle her dildeki blog sayfasında o dile ait gönderilerin linkleri görünecekti. Çünkü bütün gönderileri her iki dile çevirmeyeceğim.</p>
+
+<p>Her dildeki sayfada o dile ait gönderilerin linklerinin görünmesi için <code class="language-plaintext highlighter-rouge">blog.md</code> ve <code class="language-plaintext highlighter-rouge">blog.tr.md</code> sayfalarına aşağıdaki kodları ekledim:
+<code class="language-plaintext highlighter-rouge">{% for post in site.posts %}</code>‘un altına <code class="language-plaintext highlighter-rouge">blog.md</code>‘de</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if post.lang == 'en' %}
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">blog.tr.md</code>‘de</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if post.lang == 'tr' %}
+</code></pre></div></div>
+<p>satırlarını ekledim.</p>
+
+<p>Blog sayfalarının daha karmaşık olduğunu söylemiştim. Diğer sayfalarda iki durum varken bunlarda üç durum var:</p>
+<ul>
+  <li>Türkçe gönderiler</li>
+  <li>İngilizce gönderiler</li>
+  <li>Çevirisi olmayan gönderiler
+Bu durumun üstesinden gelmek için aşağıdaki adımları attım:</li>
+  <li>Blog gönderilerinde <code class="language-plaintext highlighter-rouge">layout: post</code> yazdığını gördüm. Yani düzeni <code class="language-plaintext highlighter-rouge">post.html</code>‘den alıyorlardı.</li>
+  <li>post.html de düzenini <code class="language-plaintext highlighter-rouge">default.html</code>‘den alıyordu.</li>
+  <li>default.html de header’ını yani sayfa linkleri ve dil değiştirici ile ilgili düzeni <code class="language-plaintext highlighter-rouge">header.html</code>‘den alıyordu.
+Bu durumda üç farklı durum için üç farklı <code class="language-plaintext highlighter-rouge">post.html</code> lazımdı. <code class="language-plaintext highlighter-rouge">posttr.html</code> ve <code class="language-plaintext highlighter-rouge">posten.html</code> adıyla kopyalarını oluşturdum. 
+Bunların layoutlarını bağlamak için
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>defpost.html
+defposttr.html
+defopsten.html
+</code></pre></div>    </div>
+    <p>adıyla <code class="language-plaintext highlighter-rouge">default.html</code>‘nin üç kopyasını oluşturdum.</p>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">defposttr</code>‘yi <code class="language-plaintext highlighter-rouge">headertr</code>‘ye bağladım.</li>
+  <li><code class="language-plaintext highlighter-rouge">defposten</code>‘i <code class="language-plaintext highlighter-rouge">header</code>‘a bağladım.</li>
+  <li><code class="language-plaintext highlighter-rouge">defpost</code> için <code class="language-plaintext highlighter-rouge">headpost.html</code> adıyla bir kopya oluşturup, içinden dil değiştiriciyi sildim. 
+Bu düzenlemeden sonra çevirisi olan blog gönderilerimde dil değiştirici görünecek, olmayanlarda görünmeyecekti.</li>
+</ul>
+
+<p>Tüm bunlardan sonra sonunda çok dilli bir Jekyll website oluşturmayı başarmıştım. Gelecekte siteyi geliştirmek için heyecanımı da kaybetmedim.</p>
+
+<p>Herhangi bir konuda bir sorunuz varsa e-posta adresim üzerinden bana ulaşmaktan çekinmeyin.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Tüm bunlardan sonra sonunda çok dilli bir Jekyll website oluşturmayı başarmıştım.]]></summary></entry><entry xml:lang="tr"><title type="html">İlahiyat Dergilerinde Standart Eksikliği</title><link href="https://sansarkan.space/2024/10/18/standart_eksikligi.html" rel="alternate" type="text/html" title="İlahiyat Dergilerinde Standart Eksikliği" /><published>2024-10-18T00:00:00+03:00</published><updated>2024-10-18T00:00:00+03:00</updated><id>https://sansarkan.space/2024/10/18/standart_eksikligi</id><content type="html" xml:base="https://sansarkan.space/2024/10/18/standart_eksikligi.html"><![CDATA[<style>
     #dktl {
         width: 100%;
         height: auto;
