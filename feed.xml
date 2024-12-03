@@ -1,5 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://sansarkan.space/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sansarkan.space/" rel="alternate" type="text/html" /><updated>2024-12-03T12:42:43+03:00</updated><id>https://sansarkan.space/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Personal Website
-</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry xml:lang="tr"><title type="html">İlahiyat Dergilerinde Standart Eksikliği</title><link href="https://sansarkan.space/2024/10/18/standart_eksikligi.html" rel="alternate" type="text/html" title="İlahiyat Dergilerinde Standart Eksikliği" /><published>2024-10-18T00:00:00+03:00</published><updated>2024-10-18T00:00:00+03:00</updated><id>https://sansarkan.space/2024/10/18/standart_eksikligi</id><content type="html" xml:base="https://sansarkan.space/2024/10/18/standart_eksikligi.html"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://sansarkan.space/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sansarkan.space/" rel="alternate" type="text/html" /><updated>2024-12-03T21:43:47+03:00</updated><id>https://sansarkan.space/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Personal Website
+</subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry xml:lang="en"><title type="html">Multilingual Jekyll Website Without Plugin</title><link href="https://sansarkan.space/2024/12/03/multilingual.html" rel="alternate" type="text/html" title="Multilingual Jekyll Website Without Plugin" /><published>2024-12-03T00:00:00+03:00</published><updated>2024-12-03T00:00:00+03:00</updated><id>https://sansarkan.space/2024/12/03/multilingual</id><content type="html" xml:base="https://sansarkan.space/2024/12/03/multilingual.html"><![CDATA[<p>I had a jekyll website where I share my publications and write blog. Initially, I set it up to be in Turkish only. However after some time, I learned some English (as you can see, I’m still not fluent) I wanted to make the website available in both Turkish and English.</p>
+
+<p>I searched the web for guides on how to add multiple languages to a Jekyll website, but none of the solutions I found worked for me. Finally, with the help of Cloude 3 Haiku, I discovered a way to achieve this without using folders or plugins.</p>
+
+<p>Now let me explain step by step what I did:</p>
+<h2 id="make-copy-of-pages">Make copy of pages</h2>
+<p>I have three pages,</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- index.md
+- blog.md
+- publish.md
+</code></pre></div></div>
+
+<p>I made copy of them and named them as</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- index.tr.md
+- blog.tr.md
+- publish.tr.md
+</code></pre></div></div>
+
+<p>There is <code class="language-plaintext highlighter-rouge">default.html</code> under _layouts and <code class="language-plaintext highlighter-rouge">header.html</code> under _includes. I made copy of them. I used them as you see below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>For English Pages</th>
+      <th>For Turkish Pages</th>
+      <th>For Index Page</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>default.html</td>
+      <td>defaulttr.html</td>
+      <td>defindex.html</td>
+    </tr>
+    <tr>
+      <td>header.html</td>
+      <td>headertr.html</td>
+      <td>headerin.html</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="modify-the-new-files">Modify the new files</h2>
+<p>In <code class="language-plaintext highlighter-rouge">defaulttr.html</code> I changed</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{%- include header.html -%}
+</code></pre></div></div>
+<p>to</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{%- include headertr.html -%}
+</code></pre></div></div>
+
+<p>In <code class="language-plaintext highlighter-rouge">headertr.html</code> I changed</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{%- assign page_paths = site.header_pages | default: default_paths -%}
+</code></pre></div></div>
+<p>to</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{%- assign page_paths = site.headertr_pages | default: default_paths -%}
+
+</code></pre></div></div>
+
+<p>📌 I changed the same rows in <code class="language-plaintext highlighter-rouge">defindex.html</code> and <code class="language-plaintext highlighter-rouge">headerin.html</code> as necessary.</p>
+
+<p>I added YAML front matter to each <code class="language-plaintext highlighter-rouge">.md</code> pages as needed.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+title: Title of page
+layout: defindex (for Turkish pages defaulttr, for English pages default,)
+lang: en (for index.tr.html and other Turkish pages tr)
+---
+
+</code></pre></div></div>
+
+<p>❗ Don’t forget to add <code class="language-plaintext highlighter-rouge">lang</code> to front matter of every blog posts.</p>
+
+<h2 id="modifying-configyml">Modifying config.yml</h2>
+<p>I added this to <code class="language-plaintext highlighter-rouge">config.yml</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>languages:
+ - en
+ - tr
+</code></pre></div></div>
+<p>and modified <code class="language-plaintext highlighter-rouge">header_pages</code> as shown below in <code class="language-plaintext highlighter-rouge">config.yml</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>header_pages:
+ - blog.md
+ - publish.md
+headertr_pages:
+  - blog.tr.md
+  - publish.tr.md
+</code></pre></div></div>
+
+<h2 id="language-switcher">Language Switcher</h2>
+<p>After taking those steps, when I run the website, the first page displayed was the English index page. I then needed to add a language switcher.</p>
+
+<p>I tried various code solutions, but realized it was not possible to change all pages using the same code. After two days of trying different approacher, I finally found a solution that worked for me.</p>
+
+<p>I added this row in <code class="language-plaintext highlighter-rouge">headertr.html</code> below <code class="language-plaintext highlighter-rouge">{%- endfor -%}</code> above <code class="language-plaintext highlighter-rouge">&lt;/div&gt;</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="{{ page.url | replace:'.tr.html','.html' }}"&gt;🇬🇧&lt;/a&gt;
+</code></pre></div></div>
+<p>This in <code class="language-plaintext highlighter-rouge">header.html</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="{{ page.url | replace:'.html','.tr.html' }}"&gt;🇹🇷&lt;/a&gt;
+</code></pre></div></div>
+<p>With these changes, I was able to navigate between the Turkish and English versions of my blog and publish pages.</p>
+
+<p>However for the index pages, I needed a different solution. I noticed that when I opened the website, the URL did not include “index.html”. This meant the language switcher was not working correctly on the first page. To adress this, I realized I just needed a direct link, so I added the following code to my <code class="language-plaintext highlighter-rouge">defindex.html</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="/index.tr.html"&gt;🇹🇷&lt;/a&gt;
+</code></pre></div></div>
+
+<h2 id="appropriate-page-according-to-browser-language">Appropriate page according to browser language</h2>
+
+<p>Although my website was now working as I wanted, there was still a problem. My first page was always in English, even if the user’s browser default language was different.</p>
+
+<p>I needed to find a way to detect the user’s browser default language and then open the appropriate index page. Just as Claude 3 Haiku had helped me with the language switcher functionality before, it also assisted me in finding a solution for this issue.</p>
+
+<p>I added this code to <code class="language-plaintext highlighter-rouge">defindex.html</code> below <code class="language-plaintext highlighter-rouge">{%- include head.html -%}</code> above <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;script&gt; 
+  var userLang = navigator.language || navigator.userLanguage; 
+  if (userLang.startsWith('tr') &amp;&amp; window.location.href.indexOf('index.html') === -1) 
+  { window.location.href = '/index.tr.html'; } 
+  &lt;/script&gt;
+
+</code></pre></div></div>
+
+<p>This javascript code would work only if there is  no <code class="language-plaintext highlighter-rouge">index.html</code> in adress bar. So that, by using the language switcher to go to the English index, when default language of browser is Turkish, the code would not work and it would not redirect me back to Turkish index.</p>
+
+<h2 id="solution-of-back-to-home-page-problem">Solution of back to home page problem</h2>
+<p>I use the Minima theme on my Jekyll website. My name is shown at the top left of all pages. When I clicked on it, I went back to the home page, but not to the index.html, rather to the root (/) page.</p>
+
+<p>When the default language of the browser was Turkish, clicking on my name took me to the root (/) page and then javascript code redirected me to the Turkish index pages.</p>
+
+<p>This was a problem when I clicked on my name while I was on an English blog or publish page.</p>
+
+<p>As a solution of this problem, I modified the following rows in all three header pages:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a class="site-title" rel="author" href="{{ "/" | relative_url }}"&gt;{{ site.title | escape }}&lt;/a&gt;
+</code></pre></div></div>
+
+<p>in <code class="language-plaintext highlighter-rouge">header.html</code> and <code class="language-plaintext highlighter-rouge">headerin.html</code> I changed <code class="language-plaintext highlighter-rouge">"/"</code> to <code class="language-plaintext highlighter-rouge">"/index.html"</code>
+in <code class="language-plaintext highlighter-rouge">headertr.html</code> changed it to <code class="language-plaintext highlighter-rouge">"/index.tr.html</code></p>
+
+<p>This ensured that when  I clicked on my name in the header, it would take me to the appropriate index page, index.html for the English version, and index.tr.html for the Turkish verison, instead of root (/) page which was causing the redirection issue.</p>
+
+<h2 id="blog-posts">Blog posts</h2>
+<p>Since Jekyll generates blog post automatically, handling blog posts in both languages would not work the same as other pages. However I found this approach to be easier to manage.</p>
+
+<p>A I mentioned before, I made a copy of <code class="language-plaintext highlighter-rouge">blog.md</code> and named it <code class="language-plaintext highlighter-rouge">blog.tr.md</code>. Rather than translating the same blog posts into another language, I decided to write different content for the Turkish and English versions.</p>
+
+<p>To ensure that <code class="language-plaintext highlighter-rouge">blog.md</code> and <code class="language-plaintext highlighter-rouge">blog.tr.md</code> display the appropriate posts for each language, I added the following code rows:</p>
+
+<p>In <code class="language-plaintext highlighter-rouge">blog.md</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if post.lang == 'en' %}
+</code></pre></div></div>
+<p>In <code class="language-plaintext highlighter-rouge">blog.tr.md</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if post.lang == 'tr' %}
+</code></pre></div></div>
+<p>below <code class="language-plaintext highlighter-rouge">{% for post in site.posts %}</code></p>
+
+<p>By taking these steps, finally I was able to create a multilingual Jekyll website. I’m excited to continue developing and improving my website in the future.</p>
+
+<p>If you have any question, please feel free to reach out to me at my e-mail.</p>]]></content><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><summary type="html"><![CDATA[Finally I was able to create a multilingual Jekyll website, without any plugins.]]></summary></entry><entry xml:lang="tr"><title type="html">İlahiyat Dergilerinde Standart Eksikliği</title><link href="https://sansarkan.space/2024/10/18/standart_eksikligi.html" rel="alternate" type="text/html" title="İlahiyat Dergilerinde Standart Eksikliği" /><published>2024-10-18T00:00:00+03:00</published><updated>2024-10-18T00:00:00+03:00</updated><id>https://sansarkan.space/2024/10/18/standart_eksikligi</id><content type="html" xml:base="https://sansarkan.space/2024/10/18/standart_eksikligi.html"><![CDATA[<style>
     #dktl {
         width: 100%;
         height: auto;
