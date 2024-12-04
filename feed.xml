@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://sansarkan.space/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sansarkan.space/" rel="alternate" type="text/html" /><updated>2024-12-03T23:02:27+03:00</updated><id>https://sansarkan.space/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Personal Website
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://sansarkan.space/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sansarkan.space/" rel="alternate" type="text/html" /><updated>2024-12-04T14:50:13+03:00</updated><id>https://sansarkan.space/feed.xml</id><title type="html">Yusuf Sansarkan</title><subtitle>Personal Website
 </subtitle><author><name>Yusuf Sansarkan</name><email>yusuf.sansarkan@dpu.edu.tr</email></author><entry xml:lang="en"><title type="html">Multilingual Jekyll Website Without Plugin</title><link href="https://sansarkan.space/2024/12/03/multilingual.html" rel="alternate" type="text/html" title="Multilingual Jekyll Website Without Plugin" /><published>2024-12-03T00:00:00+03:00</published><updated>2024-12-03T00:00:00+03:00</updated><id>https://sansarkan.space/2024/12/03/multilingual</id><content type="html" xml:base="https://sansarkan.space/2024/12/03/multilingual.html"><![CDATA[<p>I had a jekyll website where I share my publications and write blog. Initially, I set it up to be in Turkish only. However after some time, I learned some English (as you can see, I’m still not fluent) I wanted to make the website available in both Turkish and English.</p>
 
 <p>I searched the web for guides on how to add multiple languages to a Jekyll website, but none of the solutions I found worked for me. Finally, with the help of Cloude 3 Haiku, I discovered a way to achieve this without using folders or plugins.</p>
@@ -139,7 +139,7 @@ in <code class="language-plaintext highlighter-rouge">headertr.html</code> chang
 <h2 id="blog-posts">Blog posts</h2>
 <p>Since Jekyll generates blog post automatically, handling blog posts in both languages would not work the same as other pages. However I found this approach to be easier to manage.</p>
 
-<p>A I mentioned before, I made a copy of <code class="language-plaintext highlighter-rouge">blog.md</code> and named it <code class="language-plaintext highlighter-rouge">blog.tr.md</code>. Rather than translating the same blog posts into another language, I decided to write different content for the Turkish and English versions.</p>
+<p>A I mentioned before, I made a copy of <code class="language-plaintext highlighter-rouge">blog.md</code> and named it <code class="language-plaintext highlighter-rouge">blog.tr.md</code>. Rather than translating all the same blog posts into another language, I’ll write different content in both languages that I don’t want to translate.</p>
 
 <p>To ensure that <code class="language-plaintext highlighter-rouge">blog.md</code> and <code class="language-plaintext highlighter-rouge">blog.tr.md</code> display the appropriate posts for each language, I added the following code rows:</p>
 
@@ -150,6 +150,38 @@ in <code class="language-plaintext highlighter-rouge">headertr.html</code> chang
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if post.lang == 'tr' %}
 </code></pre></div></div>
 <p>below <code class="language-plaintext highlighter-rouge">{% for post in site.posts %}</code></p>
+
+<p>As I mention before, blog posts are more complicated. There were three conditions in blog posts.</p>
+<ul>
+  <li>Turkish posts</li>
+  <li>English posts</li>
+  <li>Not translated posts</li>
+</ul>
+
+<p>For handle this situation, I took the following steps:</p>
+<ul>
+  <li>The blog posts layout came from <code class="language-plaintext highlighter-rouge">post.html</code>. It took its format from <code class="language-plaintext highlighter-rouge">default.html</code></li>
+  <li><code class="language-plaintext highlighter-rouge">default.html</code> took its header, which contains page links and language switcher, from <code class="language-plaintext highlighter-rouge">header.html</code>.</li>
+</ul>
+
+<p>For the three conditions I mentioned above,</p>
+<ul>
+  <li>I made copies of <code class="language-plaintext highlighter-rouge">post.html</code> and named them <code class="language-plaintext highlighter-rouge">posttr.html</code> and <code class="language-plaintext highlighter-rouge">posten.html</code></li>
+  <li>For layout of these three files I made copies of <code class="language-plaintext highlighter-rouge">default.html</code> and named them</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>defpost.html
+defposttr.html
+defopsten.html
+</code></pre></div></div>
+
+<ul>
+  <li>I connected <code class="language-plaintext highlighter-rouge">defposttr</code>‘to <code class="language-plaintext highlighter-rouge">headertr</code>, which contains language switcher from Turkish to English.</li>
+  <li>I connected <code class="language-plaintext highlighter-rouge">defposten</code>‘to <code class="language-plaintext highlighter-rouge">header</code>, which contains language switcher from English to Turkish.</li>
+  <li>I connected <code class="language-plaintext highlighter-rouge">defpost</code> to <code class="language-plaintext highlighter-rouge">headpost.html</code> which I created for blog posts that are not translated, and I deleted language switcher from it.</li>
+</ul>
+
+<p>After these steps, my blog posts that I add the right front matter to their YAML would behave according to three conditions.</p>
 
 <p>By taking these steps, finally I was able to create a multilingual Jekyll website. I’m excited to continue developing and improving my website in the future.</p>
 
@@ -309,13 +341,20 @@ headertr_pages:
 <ul>
   <li>Türkçe gönderiler</li>
   <li>İngilizce gönderiler</li>
-  <li>Çevirisi olmayan gönderiler
-Bu durumun üstesinden gelmek için aşağıdaki adımları attım:</li>
+  <li>Çevirisi olmayan gönderiler</li>
+</ul>
+
+<p>Bu durumun üstesinden gelmek için aşağıdaki adımları attım:</p>
+<ul>
   <li>Blog gönderilerinde <code class="language-plaintext highlighter-rouge">layout: post</code> yazdığını gördüm. Yani düzeni <code class="language-plaintext highlighter-rouge">post.html</code>‘den alıyorlardı.</li>
   <li>post.html de düzenini <code class="language-plaintext highlighter-rouge">default.html</code>‘den alıyordu.</li>
-  <li>default.html de header’ını yani sayfa linkleri ve dil değiştirici ile ilgili düzeni <code class="language-plaintext highlighter-rouge">header.html</code>‘den alıyordu.
-Bu durumda üç farklı durum için üç farklı <code class="language-plaintext highlighter-rouge">post.html</code> lazımdı. <code class="language-plaintext highlighter-rouge">posttr.html</code> ve <code class="language-plaintext highlighter-rouge">posten.html</code> adıyla kopyalarını oluşturdum. 
-Bunların layoutlarını bağlamak için
+  <li>default.html de header’ını yani sayfa linkleri ve dil değiştirici ile ilgili düzeni <code class="language-plaintext highlighter-rouge">header.html</code>‘den alıyordu.</li>
+</ul>
+
+<p>Bu durumda üç farklı durum için üç farklı <code class="language-plaintext highlighter-rouge">post.html</code> lazımdı.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">posttr.html</code> ve <code class="language-plaintext highlighter-rouge">posten.html</code> adıyla kopyalarını oluşturdum.</li>
+  <li>Bunların layoutlarını bağlamak için
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>defpost.html
 defposttr.html
 defopsten.html
@@ -324,9 +363,10 @@ defopsten.html
   </li>
   <li><code class="language-plaintext highlighter-rouge">defposttr</code>‘yi <code class="language-plaintext highlighter-rouge">headertr</code>‘ye bağladım.</li>
   <li><code class="language-plaintext highlighter-rouge">defposten</code>‘i <code class="language-plaintext highlighter-rouge">header</code>‘a bağladım.</li>
-  <li><code class="language-plaintext highlighter-rouge">defpost</code> için <code class="language-plaintext highlighter-rouge">headpost.html</code> adıyla bir kopya oluşturup, içinden dil değiştiriciyi sildim. 
-Bu düzenlemeden sonra çevirisi olan blog gönderilerimde dil değiştirici görünecek, olmayanlarda görünmeyecekti.</li>
+  <li><code class="language-plaintext highlighter-rouge">defpost</code> için <code class="language-plaintext highlighter-rouge">headpost.html</code> adıyla bir kopya oluşturup, içinden dil değiştiriciyi sildim.</li>
 </ul>
+
+<p>Bu düzenlemeden sonra çevirisi olan blog gönderilerimde dil değiştirici görünecek, olmayanlarda görünmeyecekti.</p>
 
 <p>Tüm bunlardan sonra sonunda çok dilli bir Jekyll website oluşturmayı başarmıştım. Gelecekte siteyi geliştirmek için heyecanımı da kaybetmedim.</p>
 

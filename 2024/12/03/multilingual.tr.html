@@ -208,13 +208,20 @@ headertr_pages:
 <ul>
   <li>Türkçe gönderiler</li>
   <li>İngilizce gönderiler</li>
-  <li>Çevirisi olmayan gönderiler
-Bu durumun üstesinden gelmek için aşağıdaki adımları attım:</li>
+  <li>Çevirisi olmayan gönderiler</li>
+</ul>
+
+<p>Bu durumun üstesinden gelmek için aşağıdaki adımları attım:</p>
+<ul>
   <li>Blog gönderilerinde <code class="language-plaintext highlighter-rouge">layout: post</code> yazdığını gördüm. Yani düzeni <code class="language-plaintext highlighter-rouge">post.html</code>‘den alıyorlardı.</li>
   <li>post.html de düzenini <code class="language-plaintext highlighter-rouge">default.html</code>‘den alıyordu.</li>
-  <li>default.html de header’ını yani sayfa linkleri ve dil değiştirici ile ilgili düzeni <code class="language-plaintext highlighter-rouge">header.html</code>‘den alıyordu.
-Bu durumda üç farklı durum için üç farklı <code class="language-plaintext highlighter-rouge">post.html</code> lazımdı. <code class="language-plaintext highlighter-rouge">posttr.html</code> ve <code class="language-plaintext highlighter-rouge">posten.html</code> adıyla kopyalarını oluşturdum. 
-Bunların layoutlarını bağlamak için
+  <li>default.html de header’ını yani sayfa linkleri ve dil değiştirici ile ilgili düzeni <code class="language-plaintext highlighter-rouge">header.html</code>‘den alıyordu.</li>
+</ul>
+
+<p>Bu durumda üç farklı durum için üç farklı <code class="language-plaintext highlighter-rouge">post.html</code> lazımdı.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">posttr.html</code> ve <code class="language-plaintext highlighter-rouge">posten.html</code> adıyla kopyalarını oluşturdum.</li>
+  <li>Bunların layoutlarını bağlamak için
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>defpost.html
 defposttr.html
 defopsten.html
@@ -223,9 +230,10 @@ defopsten.html
   </li>
   <li><code class="language-plaintext highlighter-rouge">defposttr</code>‘yi <code class="language-plaintext highlighter-rouge">headertr</code>‘ye bağladım.</li>
   <li><code class="language-plaintext highlighter-rouge">defposten</code>‘i <code class="language-plaintext highlighter-rouge">header</code>‘a bağladım.</li>
-  <li><code class="language-plaintext highlighter-rouge">defpost</code> için <code class="language-plaintext highlighter-rouge">headpost.html</code> adıyla bir kopya oluşturup, içinden dil değiştiriciyi sildim. 
-Bu düzenlemeden sonra çevirisi olan blog gönderilerimde dil değiştirici görünecek, olmayanlarda görünmeyecekti.</li>
+  <li><code class="language-plaintext highlighter-rouge">defpost</code> için <code class="language-plaintext highlighter-rouge">headpost.html</code> adıyla bir kopya oluşturup, içinden dil değiştiriciyi sildim.</li>
 </ul>
+
+<p>Bu düzenlemeden sonra çevirisi olan blog gönderilerimde dil değiştirici görünecek, olmayanlarda görünmeyecekti.</p>
 
 <p>Tüm bunlardan sonra sonunda çok dilli bir Jekyll website oluşturmayı başarmıştım. Gelecekte siteyi geliştirmek için heyecanımı da kaybetmedim.</p>
 
